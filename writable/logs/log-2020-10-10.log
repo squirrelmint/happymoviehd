@@ -1,0 +1,164 @@
+CRITICAL - 2020-10-10 07:23:36 --> Undefined property: App\Controllers\Home::$VideoModel
+#0 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-10 07:24:08 --> Undefined property: App\Controllers\Home::$VideoModel
+#0 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-10 07:24:44 --> Undefined property: App\Controllers\Home::$VideoModel
+#0 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-10 07:25:38 --> Undefined offset: 1
+#0 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-10 07:29:39 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(222): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 07:31:06 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(222): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 07:32:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(218): App\Models\Video_Model->normalizeAnimetoArray(NULL)
+#2 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-10 07:33:34 --> Call to undefined function App\Models\array_key_first()
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(218): App\Models\Video_Model->normalizeAnimetoArray('{"EP 1":"anime\\...')
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 07:35:07 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 224, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 07:41:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\anime\web1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\anime\web1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(234): CodeIgniter\Model->__get('mat')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): App\Models\Video_Model->u_decode('{"EP 1":"anime\\...')
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-10 07:42:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\anime\web1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\anime\web1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(225): CodeIgniter\Model->__get('mat')
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-10 07:43:58 --> pack(): Type H: illegal hex digit {
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pack(): Type H:...', 'C:\\xampp\\htdocs...', 224, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): pack('H*', '{"EP 1":"anime\\...')
+#2 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-10 07:45:32 --> pack(): Type H: illegal hex digit {
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pack(): Type H:...', 'C:\\xampp\\htdocs...', 224, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): pack('H*', '{"EP 1":"anime\\...')
+#2 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-10 08:01:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\anime\web1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\anime\web1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(234): CodeIgniter\Model->__get('mat')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): App\Models\Video_Model->u_decode('{"EP 1":"anime\\...')
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-10 08:01:56 --> Undefined variable: matches
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(224): App\Models\Video_Model->u_decode('{"EP 1":"anime\\...')
+#2 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-10 08:04:13 --> Call to undefined function App\Models\array_key_first()
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(223): App\Models\Video_Model->normalizeAnimetoArray('{"EP 1":"anime\\...')
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 08:04:55 --> Call to undefined function App\Models\array_key_first()
+#0 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(223): App\Models\Video_Model->normalizeAnimetoArray('{"EP 1":"anime\\...')
+#1 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(63): App\Models\Video_Model->get_anime('1')
+#2 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#3 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-10 08:09:48 --> Array to string conversion
+#0 C:\xampp\htdocs\anime\web1\app\Views\player.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\anime\web1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anime\web1\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(78): view('player.php', Array)
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-10 08:10:16 --> Undefined variable: base_backurl
+#0 C:\xampp\htdocs\anime\web1\app\Views\player.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\anime\web1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anime\web1\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(78): view('player.php', Array)
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', '1')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

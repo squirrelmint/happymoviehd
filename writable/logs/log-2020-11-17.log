@@ -1,0 +1,207 @@
+CRITICAL - 2020-11-17 00:18:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(399): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('20015')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 00:18:52 --> Undefined variable: url_nameep
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\video.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('video.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(115): view('video.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->video('20015', 'Dragon-Rider-%2...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:20:10 --> Undefined index: name_ep
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\video.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 285, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('5', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(115): view('video.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->video('20015', 'Dragon-Rider-%2...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:22:44 --> Undefined index: name_ep
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\video.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 251, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('12', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(116): view('video.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->video('20015', 'Dragon-Rider-%2...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:24:08 --> Undefined index: name_ep
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\video.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 251, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('11', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(116): view('video.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->video('20015', 'Dragon-Rider-%2...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:24:18 --> Undefined index: name_ep
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\video.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 285, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('15', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(116): view('video.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->video('20015', 'Dragon-Rider-%2...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-17 00:35:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(390): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9852')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 00:49:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(397): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9760')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 00:50:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(397): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9664')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 00:52:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(397): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('3260')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:28:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9852')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:29:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9852')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:33:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9759')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:34:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('413')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:49:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('1873')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:51:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('1873')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:52:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('1873')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 01:54:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('9371')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 02:05:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?' at line 8
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\n        ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Helpers\pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(144): get_pagination('SELECT\n        ...', '1', 30, 0)
+#5 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(263): App\Models\Video_Model->get_list_video(1, 'Towa no Quon 2:...', '1')
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->search('Towa no Quon 2:...')
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-17 02:06:48 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('7580')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 02:08:11 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(400): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->countView('7873')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-17 04:42:14 --> Undefined variable: setting
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(292): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->search('Animal Kingdom ...')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

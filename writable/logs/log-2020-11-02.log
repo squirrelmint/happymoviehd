@@ -1,0 +1,63 @@
+CRITICAL - 2020-11-02 00:41:12 --> Unknown database 'new_variety2'
+#0 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-02 00:41:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-02 00:42:00 --> Unknown database 'aime8k'
+#0 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-02 00:42:00 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-02 00:42:02 --> Unknown database 'aime8k'
+#0 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-02 00:42:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

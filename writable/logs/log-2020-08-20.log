@@ -1,0 +1,12 @@
+CRITICAL - 2020-08-20 04:23:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''-56', 28' at line 8
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT\n        ...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /home2/gumovie/public_html/app/Helpers/pagination_helper.php(8): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...', Array)
+#4 /home2/gumovie/public_html/app/Models/Video_Model.php(395): get_pagination('SELECT\n        ...', '-1', 28, 0)
+#5 /home2/gumovie/public_html/app/Controllers/Home.php(148): App\Models\Video_Model->get_id_video_bycategory('59', 1, '-1')
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video_bycate('59', 'History%20%E0%B...')
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

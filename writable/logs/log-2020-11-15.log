@@ -1,0 +1,136 @@
+CRITICAL - 2020-11-15 22:41:45 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(37): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 22:42:07 --> Table 'nungkai.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(37): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 22:42:08 --> Table 'nungkai.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(37): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 22:42:40 --> Table 'nungkai.mo_movie' doesn't exist in engine
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(163): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(38): App\Models\Video_Model->get_list_video(1)
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 22:44:55 --> Table 'variety.mo_movie' doesn't exist in engine
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(163): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(38): App\Models\Video_Model->get_list_video(1)
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 23:31:01 --> Unknown column 'an_movie.movie_id' in 'on clause'
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(249): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(41): App\Models\Video_Model->get_anime_data('20015')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 23:32:14 --> Unknown column 'an_movie.movie_id' in 'on clause'
+#0 C:\xampp\htdocs\movie\movielive88\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(249): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(41): App\Models\Video_Model->get_anime_data('20015')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 23:33:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 278, Array)
+#1 C:\xampp\htdocs\movie\movielive88\app\Models\Video_Model.php(252): App\Models\Video_Model->normalizeAnimetoArray('3-ssd/movie/sto...')
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(41): App\Models\Video_Model->get_anime_data('20015')
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 23:33:53 --> Undefined variable: slide_anime
+#0 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:34:25 --> Undefined variable: slide_anime
+#0 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:34:40 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(79): view('index.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 23:37:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\movielive88\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\movielive88\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(41): CodeIgniter\Model->__call('get_anime_data', Array)
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 23:39:01 --> Undefined variable: pagination
+#0 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 23:39:18 --> Undefined variable: pagination
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(74): view('index.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

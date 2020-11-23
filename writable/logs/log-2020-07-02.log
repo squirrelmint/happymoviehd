@@ -1,0 +1,24 @@
+CRITICAL - 2020-07-02 00:22:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 6
+#0 C:\xampp\htdocs\doonungset1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doonungset1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doonungset1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doonungset1\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(132): get_pagination('SELECT\r\n       ...', NULL, 20, 1926)
+#5 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(52): App\Models\Video_Model->get_list_video(1, '', NULL)
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-07-02 00:22:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''-20', 20' at line 6
+#0 C:\xampp\htdocs\doonungset1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\doonungset1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\doonungset1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\doonungset1\app\Helpers\pagination_helper.php(9): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(132): get_pagination('SELECT\r\n       ...', NULL, 20, 1926)
+#5 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(52): App\Models\Video_Model->get_list_video(1, '', NULL)
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

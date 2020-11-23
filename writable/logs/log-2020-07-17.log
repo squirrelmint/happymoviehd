@@ -1,0 +1,112 @@
+CRITICAL - 2020-07-17 03:50:00 --> Undefined variable: video_interest
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(81): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-17 03:57:04 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 188, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-17 04:03:16 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-17 04:05:10 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-17 04:05:41 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 195, Array)
+#1 C:\xampp\htdocs\product1\app\Views\templates\body2.php(195): explode('{-}', Array)
+#2 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:06:53 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 195, Array)
+#1 C:\xampp\htdocs\product1\app\Views\templates\body2.php(195): explode('{-}', Array)
+#2 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 04:08:11 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 199, Array)
+#1 C:\xampp\htdocs\product1\app\Views\templates\body2.php(199): explode('{-}', Array)
+#2 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(82): view('templates/body2...', Array)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 05:08:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';
+            ) mo ON mo.category_id = mo_category.category_id
+            WHE' at line 35
+#0 C:\xampp\htdocs\product1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\product1\app\Models\Video_Model.php(533): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 05:09:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN (
+            SELECT
+            mo_movie.movie_id,
+
+            m' at line 19
+#0 C:\xampp\htdocs\product1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\product1\app\Models\Video_Model.php(534): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-17 05:09:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LEFT JOIN (
+            SELECT
+            mo_movie.movie_id,
+
+            m' at line 19
+#0 C:\xampp\htdocs\product1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\product1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\product1\app\Models\Video_Model.php(534): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\product1\app\Controllers\Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

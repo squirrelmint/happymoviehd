@@ -1,0 +1,157 @@
+CRITICAL - 2020-09-24 02:02:56 --> Undefined property: App\Controllers\Home::$ads
+#0 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 381, Array)
+#1 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('9739', 'main', 'The%20Edge%20%2...')
+#2 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-24 02:03:50 --> Undefined variable: get_img_og
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header-video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(386): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('9739', 'main', 'The%20Edge%20%2...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 02:14:22 --> Undefined variable: series
+#0 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(355): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 355, Array)
+#1 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('9739', 'main', 'The%20Edge%20%2...')
+#2 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-24 02:15:01 --> Undefined index: movie_picture
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header-video.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(388): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('9739', 'main', 'The%20Edge%20%2...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 02:18:10 --> Undefined variable: branch
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header-video.php(368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(392): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video('9739', 'main', 'The%20Edge%20%2...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 02:41:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(444): CodeIgniter\Model->__call('get_ep_series', Array)
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('9739', 'movie_thmain')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-24 02:42:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(439): CodeIgniter\Model->__call('get_ep_series', Array)
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('9739', 'movie_thmain')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-24 02:43:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(439): CodeIgniter\Model->__call('get_ep_series', Array)
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('9739', 'movie_thmain')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-24 02:43:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(439): CodeIgniter\Model->__call('get_ep_series', Array)
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('9739', 'movie_thmain')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-24 02:44:57 --> Undefined variable: base_backurl
+#0 C:\xampp\htdocs\newmovie\app\Views\player.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('player', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(460): view('player', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->player('9739', 'movie_thmain')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 04:15:54 --> Undefined index: movie_quality
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\body2.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 324, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(89): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 05:44:42 --> Undefined variable: path_setting
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(114): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->zoom()
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 05:47:38 --> Undefined variable: path_setting
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(575): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video_search('the')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 05:52:23 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/searc...', Array, true)
+#1 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(570): view('templates/searc...', Array)
+#2 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->video_search('the')
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-24 06:01:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(248): CodeIgniter\Model->__call('get_ep_series', Array)
+#3 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->series('9742', 'The-Gift-%28200...')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-24 06:02:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\newmovie\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\newmovie\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\newmovie\app\Models\Video_Model.php(242): CodeIgniter\Model->__call('normalizeSeries...', Array)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(248): App\Models\Video_Model->get_ep_series('9742')
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->series('9742', 'The-Gift-%28200...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-24 06:03:10 --> Undefined variable: index
+#0 C:\xampp\htdocs\newmovie\app\Views\templates\video.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\newmovie\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newmovie\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#3 C:\xampp\htdocs\newmovie\app\Controllers\Home.php(318): view('templates/video...', Array)
+#4 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(910): App\Controllers\Home->series('9742', '\xE0\xB8\x94\xE0\xB8\xB9\xE0\xB8\xAB\xE0\xB8\x99\xE0\xB8\xB1...')
+#5 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\newmovie\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\newmovie\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

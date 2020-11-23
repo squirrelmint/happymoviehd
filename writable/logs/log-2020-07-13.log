@@ -1,0 +1,861 @@
+CRITICAL - 2020-07-13 00:39:04 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:41:58 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:41:59 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:41:59 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1590390745_c793...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:43:17 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:43:24 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:43:45 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:43:50 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:45:18 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:52:10 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:53:52 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:54:03 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:54:40 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 00:55:35 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:01:33 --> Array to string conversion
+#0 C:\xampp\htdocs\doonungset1\app\Views\templates\footer.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\doonungset1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doonungset1\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(286): view('templates/foote...')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->video('76', 'main')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:01:38 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:01:57 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:02:45 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:07:04 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:07:24 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:08:16 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:08:25 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:08:46 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:08:54 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:09:50 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:11:25 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:12:04 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:13:38 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:14:02 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:14:02 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:17:43 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:17:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doonungset1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doonungset1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(422): CodeIgniter\Model->__get('mo_request')
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(371): App\Models\Video_Model->save_requests('1', 'ASAS')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->save_request('1', 'ASAS')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:17:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doonungset1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doonungset1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(422): CodeIgniter\Model->__get('mo_request')
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(371): App\Models\Video_Model->save_requests('1', 'SDSDSDSDSDSDSD')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->save_request('1', 'SDSDSDSDSDSDSD')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:19:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doonungset1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doonungset1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(422): CodeIgniter\Model->__get('mo_request')
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(372): App\Models\Video_Model->save_requests('1', 'null')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->save_request('1', 'null')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:19:34 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:19:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doonungset1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doonungset1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(422): CodeIgniter\Model->__get('mo_request')
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(372): App\Models\Video_Model->save_requests('1', 'sddsdsdsd')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->save_request('1', 'sddsdsdsd')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:19:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\doonungset1\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\doonungset1\system\Model.php(1648): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\doonungset1\app\Models\Video_Model.php(422): CodeIgniter\Model->__get('mo_request')
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(372): App\Models\Video_Model->save_requests('1', 'sddsdsdsd')
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->save_request('1', 'sddsdsdsd')
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:24:10 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:24:16 --> Undefined index: movie
+#0 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(300): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 300, Array)
+#1 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:24:28 --> Undefined variable: video_data
+#0 C:\xampp\htdocs\doonungset1\app\Views\templates\header.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\doonungset1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doonungset1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(83): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:25:51 --> Undefined variable: branch
+#0 C:\xampp\htdocs\doonungset1\app\Views\templates\header.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\doonungset1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doonungset1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(83): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:27:39 --> Undefined variable: value
+#0 C:\xampp\htdocs\doonungset1\app\Views\templates\header.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 248, Array)
+#1 C:\xampp\htdocs\doonungset1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doonungset1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:27:58 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\doonungset1\app\Views\templates\header.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 248, Array)
+#1 C:\xampp\htdocs\doonungset1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\doonungset1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\doonungset1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\doonungset1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\doonungset1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:05 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:32 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:54 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:54 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:55 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:46:55 --> Undefined index: movie_view
+#0 C:\xampp\htdocs\product1\app\Views\templates\body2.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(85): view('templates/body2...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:53:58 --> Undefined variable: branch
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(284): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video('1', 'main')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 01:56:37 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 302, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 01:59:10 --> Undefined variable: style
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(221): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 221, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(180): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_byyear('2001')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:00:11 --> Undefined variable: style
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 222, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(180): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_byyear('2001')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:22 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:45 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:47 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:47 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:47 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:14:48 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\header.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 225, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(84): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 02:37:11 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 02:37:56 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 02:51:53 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('73', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 03:49:09 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('85', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:01:24 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\product1\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\product1\system\Debug\Toolbar.php(496): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Debug\Toolbar.php(454): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\product1\app\Config\Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\product1\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(287): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 04:01:25 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 303, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:02:57 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('77', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:03:10 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('77', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:03:29 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('77', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:53:48 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('79', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 04:57:38 --> Undefined variable: backUrl
+#0 C:\xampp\htdocs\product1\app\Views\templates\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/searc...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(357): view('templates/searc...', Array, Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_search('lion')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 04:59:48 --> Undefined variable: backUrl
+#0 C:\xampp\htdocs\product1\app\Views\templates\search.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/searc...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(357): view('templates/searc...', Array, Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_search('lion')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 05:00:12 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1073', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:01:55 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 304, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1073', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:02:49 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 305, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1073', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:04:54 --> Undefined offset: 0
+#0 C:\xampp\htdocs\product1\app\Models\Video_Model.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 456, Array)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(107): App\Models\Video_Model->movie_view('7')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('7', '%E0%B8%AB%E0%B8...')
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 05:04:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\product1\app\Models\Video_Model.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 456, Array)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(107): App\Models\Video_Model->movie_view('15')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('15', 'Inter%20Series')
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 05:07:06 --> Undefined offset: 0
+#0 C:\xampp\htdocs\product1\app\Models\Video_Model.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 456, Array)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(107): App\Models\Video_Model->movie_view('28')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('28', 'Netflix%20Movie')
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 05:07:57 --> Undefined offset: 0
+#0 C:\xampp\htdocs\product1\app\Models\Video_Model.php(456): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 456, Array)
+#1 C:\xampp\htdocs\product1\app\Controllers\Home.php(107): App\Models\Video_Model->movie_view('28')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video_bycate('28', 'Netflix%20Movie')
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-13 05:09:00 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 305, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1093', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:14:23 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 297, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('72', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:14:25 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 297, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:17:31 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 297, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('719', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:17:56 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(297): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 297, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1082', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:18:09 --> Undefined variable: path_imgads
+#0 C:\xampp\htdocs\product1\app\Views\templates\video.php(683): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 683, Array)
+#1 C:\xampp\htdocs\product1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\product1\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#3 C:\xampp\htdocs\product1\app\Controllers\Home.php(281): view('templates/video...', Array)
+#4 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->video('1082', 'main')
+#5 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-13 05:18:58 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1082', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:19:15 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1082', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:19:44 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1082', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:24:35 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:36:23 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:42:36 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('84', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:48:03 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('84', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:50:06 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('84', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 05:59:42 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('84', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:01:59 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:04:00 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:07:17 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:07:41 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:08:02 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:08:54 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('1', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:11:36 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:11:48 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:11:49 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:13:47 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:15:26 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:18:05 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:18:37 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:20:12 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:21:14 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:22:06 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-07-13 06:23:25 --> Undefined index: movie
+#0 C:\xampp\htdocs\product1\app\Controllers\Home.php(289): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\product1\system\CodeIgniter.php(910): App\Controllers\Home->player('76', 'movie', 'adsvdo', '1588421549_969c...')
+#2 C:\xampp\htdocs\product1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\product1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\product1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

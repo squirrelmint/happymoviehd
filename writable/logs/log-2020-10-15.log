@@ -1,0 +1,10 @@
+CRITICAL - 2020-10-15 02:00:09 --> Undefined variable: total_pages
+#0 C:\xampp\htdocs\anime\web1\app\Views\index.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 214, Array)
+#1 C:\xampp\htdocs\anime\web1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\anime\web1\system\Common.php(1071): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(35): view('index.php')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

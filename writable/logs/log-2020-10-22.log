@@ -1,0 +1,120 @@
+CRITICAL - 2020-10-22 01:52:41 --> Unknown database 'new_variety2'
+#0 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(161): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(170): App\Models\Video_Model->get_list_video(1, 'one')
+#4 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->search('one')
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-22 01:52:41 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\anime\web1\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(298): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\anime\web1\system\Debug\Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-22 02:12:15 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:12:28 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:14:10 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:15:38 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:18:54 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:18:54 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 02:19:01 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 03:19:24 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-22 04:57:27 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\anime\web1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\anime\web1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\anime\web1\app\Models\Video_Model.php(117): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\anime\web1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\anime\web1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\anime\web1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

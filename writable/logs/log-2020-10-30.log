@@ -1,0 +1,151 @@
+CRITICAL - 2020-10-30 04:51:19 --> Undefined variable: list_anime
+#0 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->search('\xE0\xB8\xAB\xE0\xB8\x9F\xE0\xB8\x81')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:04:26 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:04:34 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:07:15 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:07:21 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:07:29 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 07:42:33 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 07:42:37 --> Table 'anime8k.an_slide' doesn't exist
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(35): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 07:51:55 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:52:11 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:52:36 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:53:39 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:54:09 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:55:17 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(130): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 07:56:17 --> Undefined index: list
+#0 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

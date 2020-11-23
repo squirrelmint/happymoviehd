@@ -1,0 +1,288 @@
+CRITICAL - 2020-10-21 02:03:51 --> Undefined variable: keyword
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(67): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:06:00 --> Array to string conversion
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(228): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->category('2', '%E0%B8%9C%E0%B8...')
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:16:58 --> Undefined variable: active
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(228): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->category('14', '%E0%B8%AE%E0%B8...')
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:18:24 --> Undefined variable: cate_id
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(228): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->category('10', '%E0%B8%AB%E0%B8...')
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:31:34 --> Undefined variable: cate_id
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(67): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:31:46 --> Undefined variable: cate_id
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(67): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:31:59 --> Undefined variable: cate_id
+#0 C:\xampp\htdocs\animeweb1\app\Views\templates\header.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(67): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 02:59:15 --> Not unique table/alias: 'an_movie'
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 02:59:57 --> Not unique table/alias: 'an_movie'
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 03:01:12 --> Not unique table/alias: 'an_movie'
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 03:01:16 --> Not unique table/alias: 'an_movie'
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(118): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 03:01:25 --> Unknown column 'an_movie.movie_active' in 'field list'
+#0 C:\xampp\htdocs\animeweb1\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\animeweb1\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(96): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...', Array)
+#4 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(37): App\Models\Video_Model->get_category(1)
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 03:04:10 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vide...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vide...')
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(22): spl_autoload_call('App\\Models\\Vide...')
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 03:04:16 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:06:27 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:12:34 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:13:55 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vide...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vide...')
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(22): spl_autoload_call('App\\Models\\Vide...')
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 03:14:19 --> syntax error, unexpected ')', expecting ';' or ','
+#0 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\animeweb1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vide...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vide...')
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(22): spl_autoload_call('App\\Models\\Vide...')
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(882): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-21 03:14:55 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:15:19 --> Undefined index: cate_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:16:29 --> Undefined index: ep_data
+#0 C:\xampp\htdocs\animeweb1\app\Models\Video_Model.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 122, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(34): App\Models\Video_Model->get_slide(1)
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:21:34 --> Undefined index: movie_create
+#0 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 03:27:21 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(39): date_format('2020-09-23 13:4...', 'Y/d/m H:i:s')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:27:35 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(39): date_format('2020-09-23 13:4...', 'Y/m/d H:i:s')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:29:09 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(40): explode(' ', '', '2020-09-23 13:4...')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:29:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(40): explode(' ', '', '2020-09-23 13:4...')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:29:34 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(40): explode(' ', '', '2020-09-23 13:4...')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:31:25 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(41): date_format('2020-09-23', 'Y/m/d H:i:s')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 03:59:36 --> Cannot redeclare date_format()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 03:59:49 --> Cannot redeclare date_format()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 04:00:22 --> Cannot redeclare date()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 04:12:04 --> Array to string conversion
+#0 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 04:28:03 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\animeweb1\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/')
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 04:38:40 --> Array to string conversion
+#0 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

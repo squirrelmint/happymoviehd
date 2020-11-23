@@ -1,0 +1,21 @@
+CRITICAL - 2020-09-20 18:12:01 --> MySQL server has gone away
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT\n        ...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(433): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(337): App\Models\Video_Model->get_id_video_random(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video('914', 'main')
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-20 18:12:05 --> Too many connections
+#0 /home2/gumovie/public_html/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(433): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(337): App\Models\Video_Model->get_id_video_random(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video('9783', 'main', 'Red%202%20%2820...')
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

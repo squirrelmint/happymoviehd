@@ -1,0 +1,20 @@
+CRITICAL - 2020-10-17 08:58:55 --> Undefined variable: path_thumbnail
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(81): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-17 09:01:47 --> Undefined variable: path_thumbnail
+#0 C:\xampp\htdocs\animeweb1\app\Views\animedata.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\animeweb1\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\animeweb1\system\Common.php(1071): CodeIgniter\View\View->render('animedata.php', Array, true)
+#3 C:\xampp\htdocs\animeweb1\app\Controllers\Home.php(81): view('animedata.php', Array)
+#4 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(910): App\Controllers\Home->animedata()
+#5 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\animeweb1\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\animeweb1\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

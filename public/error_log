@@ -1,0 +1,174 @@
+[21-Jul-2020 03:18:01 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:19:22 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:19:22 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(222): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:19:25 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:19:25 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(222): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:31 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:31 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(222): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:35 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:35 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(222): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:55 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:20:55 America/Chicago] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home2/gumovie/public_html/app/Config/Events.php:27) in /home2/gumovie/public_html/system/Debug/Exceptions.php:161
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home2/gumovie/...', 161, Array)
+#1 /home2/gumovie/public_html/system/Debug/Exceptions.php(161): header('HTTP/1.1 500 In...', true, 500)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(222): CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#4 {main}
+  thrown in /home2/gumovie/public_html/system/Debug/Exceptions.php on line 161
+[21-Jul-2020 03:21:08 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:23:37 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:27:29 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:27:50 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:32:37 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:32:46 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 03:33:06 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 04:03:41 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 04:11:25 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100
+[21-Jul-2020 04:13:37 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home2/gumovie/...', 100, Array)
+#1 /home2/gumovie/public_html/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 /home2/gumovie/public_html/system/Debug/Exceptions.php(298): include('/home2/gumovie/...')
+#3 /home2/gumovie/public_html/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown in /home2/gumovie/public_html/app/Views/errors/html/error_exception.php on line 100

@@ -1,0 +1,9 @@
+CRITICAL - 2020-05-25 00:42:32 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie4\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/body....')
+#1 C:\xampp\htdocs\movie4\system\Common.php(1071): CodeIgniter\View\View->render('templates/body....', Array, true)
+#2 C:\xampp\htdocs\movie4\app\Controllers\Home.php(74): view('templates/body....')
+#3 C:\xampp\htdocs\movie4\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\movie4\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie4\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2020-08-04 03:54:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's me ghost%'' at line 6
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT\n        ...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(482): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(482): App\Models\Video_Model->get_list_video_search('Let's me ghost', 1, 1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video_search('Let's me ghost')
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

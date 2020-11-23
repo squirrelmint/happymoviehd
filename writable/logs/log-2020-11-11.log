@@ -1,0 +1,130 @@
+CRITICAL - 2020-11-11 00:38:11 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(223): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->search('test')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:32:20 --> Undefined variable: chk_act
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(179): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:32:59 --> Undefined variable: chk_act
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(179): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:34:02 --> Undefined variable: list_anime
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\category.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('category.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(190): view('category.php')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:35:30 --> Undefined variable: pagination
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\category.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('category.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(200): view('category.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:40:45 --> Undefined variable: pagination
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\category.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('category.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(196): view('category.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:41:18 --> Undefined variable: pagination
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\category.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('category.php', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(196): view('category.php', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 03:41:28 --> Undefined variable: list_category
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(197): view('templates/foote...')
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->categorylist()
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 04:58:57 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(294): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->category('14', 'action')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 05:01:15 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(302): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->category('14', 'action')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 05:01:40 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(302): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->category('14', 'action')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 05:01:57 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(302): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->category('14', 'action')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-11 05:02:17 --> Undefined index: poppular
+#0 C:\xampp\htdocs\movie\movielive88\app\Views\templates\header.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\movie\movielive88\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\movielive88\system\Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\movie\movielive88\app\Controllers\Home.php(303): view('templates/heade...', Array)
+#4 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(910): App\Controllers\Home->category('14', 'action')
+#5 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\movielive88\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\movielive88\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

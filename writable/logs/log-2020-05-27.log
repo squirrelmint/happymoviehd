@@ -1,0 +1,32 @@
+CRITICAL - 2020-05-27 01:41:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\movie4\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#1 C:\xampp\htdocs\movie4\app\Controllers\Home.php(161): view('templates/video...', Array)
+#2 C:\xampp\htdocs\movie4\system\CodeIgniter.php(910): App\Controllers\Home->video('4', 'main')
+#3 C:\xampp\htdocs\movie4\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\movie4\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-27 01:41:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\movie4\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#1 C:\xampp\htdocs\movie4\app\Controllers\Home.php(161): view('templates/video...', Array)
+#2 C:\xampp\htdocs\movie4\system\CodeIgniter.php(910): App\Controllers\Home->video('4', 'main')
+#3 C:\xampp\htdocs\movie4\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\movie4\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-27 01:41:40 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\movie4\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#1 C:\xampp\htdocs\movie4\app\Controllers\Home.php(161): view('templates/video...', Array)
+#2 C:\xampp\htdocs\movie4\system\CodeIgniter.php(910): App\Controllers\Home->video('4', 'main')
+#3 C:\xampp\htdocs\movie4\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\movie4\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-05-27 01:41:52 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\movie4\system\Common.php(1071): CodeIgniter\View\View->render('templates/video...', Array, true)
+#1 C:\xampp\htdocs\movie4\app\Controllers\Home.php(161): view('templates/video...', Array)
+#2 C:\xampp\htdocs\movie4\system\CodeIgniter.php(910): App\Controllers\Home->video('3', 'main')
+#3 C:\xampp\htdocs\movie4\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\movie4\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,201 @@
+CRITICAL - 2020-07-22 02:23:34 --> syntax error, unexpected '?>'
+#0 /home2/gumovie/public_html/system/Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#1 /home2/gumovie/public_html/app/Controllers/Home.php(83): view('templates/body2...', Array)
+#2 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#3 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-22 02:23:47 --> syntax error, unexpected '?>'
+#0 /home2/gumovie/public_html/system/Common.php(1071): CodeIgniter\View\View->render('templates/body2...', Array, true)
+#1 /home2/gumovie/public_html/app/Controllers/Home.php(83): view('templates/body2...', Array)
+#2 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#3 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-07-22 03:04:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT
+
+        
+
+            mo_category.category_id,
+
+            mo_category.' at line 3
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET SESSION gro...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET SESSION gro...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SET SESSION gro...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(1052): CodeIgniter\Database\BaseConnection->query('SET SESSION gro...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-22 03:05:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT
+
+        
+
+            mo_category.category_id,
+
+            mo_category.' at line 3
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET SESSION gro...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET SESSION gro...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SET SESSION gro...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(1052): CodeIgniter\Database\BaseConnection->query('SET SESSION gro...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-22 03:08:19 --> syntax error, unexpected 'SESSION' (T_STRING)
+#0 /home2/gumovie/public_html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home2/gumovie/...')
+#1 /home2/gumovie/public_html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vide...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vide...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(23): spl_autoload_call('App\\Models\\Vide...')
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(882): App\Controllers\Home->__construct()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:08:39 --> syntax error, unexpected 'SESSION' (T_STRING)
+#0 /home2/gumovie/public_html/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home2/gumovie/...')
+#1 /home2/gumovie/public_html/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vide...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vide...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(23): spl_autoload_call('App\\Models\\Vide...')
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(882): App\Controllers\Home->__construct()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:09:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT
+
+        
+
+            mo_category.category_id,
+
+            mo_category.' at line 3
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET SESSION gro...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET SESSION gro...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SET SESSION gro...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(1052): CodeIgniter\Database\BaseConnection->query('SET SESSION gro...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-22 03:12:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@@SET SESSION group_concat_max_len = 1000000;
+
+        SELECT
+
+        
+
+       ' at line 1
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('@@SET SESSION g...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('@@SET SESSION g...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('@@SET SESSION g...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(1052): CodeIgniter\Database\BaseConnection->query('@@SET SESSION g...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-22 03:12:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@@group_concat_max_len = 1000000;
+
+        SELECT
+
+        
+
+            mo_cate' at line 1
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET SESSION @@g...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET SESSION @@g...')
+#2 /home2/gumovie/public_html/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SET SESSION @@g...')
+#3 /home2/gumovie/public_html/app/Models/Video_Model.php(1052): CodeIgniter\Database\BaseConnection->query('SET SESSION @@g...')
+#4 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-07-22 03:14:44 --> Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET GLOBAL grou...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET GLOBAL grou...')
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(1051): CodeIgniter\Database\BaseConnection->simpleQuery('SET GLOBAL grou...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:14:48 --> Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET GLOBAL grou...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET GLOBAL grou...')
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(1051): CodeIgniter\Database\BaseConnection->simpleQuery('SET GLOBAL grou...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:14:52 --> Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET GLOBAL grou...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET GLOBAL grou...')
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(1051): CodeIgniter\Database\BaseConnection->simpleQuery('SET GLOBAL grou...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:15:22 --> Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET GLOBAL grou...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET GLOBAL grou...')
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(1049): CodeIgniter\Database\BaseConnection->simpleQuery('SET GLOBAL grou...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:15:48 --> Access denied; you need (at least one of) the SUPER privilege(s) for this operation
+#0 /home2/gumovie/public_html/system/Database/MySQLi/Connection.php(330): mysqli->query('SET GLOBAL grou...')
+#1 /home2/gumovie/public_html/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SET GLOBAL grou...')
+#2 /home2/gumovie/public_html/app/Models/Video_Model.php(965): CodeIgniter\Database\BaseConnection->simpleQuery('SET GLOBAL grou...')
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(54): App\Models\Video_Model->get_video_interest(1)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:38:55 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home2/gumovie/public_html/app/Views/templates/header-video.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home2/gumovie/...', 37, Array)
+#1 /home2/gumovie/public_html/system/View/View.php(236): include('/home2/gumovie/...')
+#2 /home2/gumovie/public_html/system/Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(271): view('templates/heade...', Array)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video('598', 'main', 'Monk%20Comes%20...')
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:40:50 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home2/gumovie/public_html/app/Views/templates/header-video.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home2/gumovie/...', 37, Array)
+#1 /home2/gumovie/public_html/system/View/View.php(236): include('/home2/gumovie/...')
+#2 /home2/gumovie/public_html/system/Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(278): view('templates/heade...', Array)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video('76', 'main', 'Ferdinand')
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-22 03:40:54 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home2/gumovie/public_html/app/Views/templates/header-video.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home2/gumovie/...', 37, Array)
+#1 /home2/gumovie/public_html/system/View/View.php(236): include('/home2/gumovie/...')
+#2 /home2/gumovie/public_html/system/Common.php(1071): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 /home2/gumovie/public_html/app/Controllers/Home.php(278): view('templates/heade...', Array)
+#4 /home2/gumovie/public_html/system/CodeIgniter.php(910): App\Controllers\Home->video('598', 'main', 'Monk%20Comes%20...')
+#5 /home2/gumovie/public_html/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/gumovie/public_html/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/gumovie/public_html/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
