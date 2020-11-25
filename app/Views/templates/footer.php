@@ -24,6 +24,7 @@
   </footer>
 
   <script>
+
     $(document).ready(function() {
 
       var mySwiper = new Swiper('#HomeSlide', {
@@ -46,6 +47,22 @@
 
     });
 
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+
     function goView(id, name, type) {
       countView(id);
 
@@ -66,25 +83,25 @@
     }
   
     function countView(id) {
-        // alert(id);
-        var base_url = '<?= base_url() ?>';
-        $.ajax({
+      // alert(id);
+      var base_url = '<?= base_url() ?>';
+      $.ajax({
 
-          url: base_url + "/countview/" + id,
-          method: "GET",
+        url: base_url + "/countview/" + id,
+        method: "GET",
 
-          async: true,
+        async: true,
 
-          success: function(response) {
+        success: function(response) {
 
-            console.log(response); // server response
+          console.log(response); // server response
 
-          }
+        }
 
 
-        });
+      });
 
-      }
+    }
     
 
     function goCate(id, name) {

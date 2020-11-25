@@ -1,0 +1,11 @@
+CRITICAL - 2020-11-25 00:28:28 --> Table 'variety.mo_slide' doesn't exist
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT\n        ...')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 C:\xampp\htdocs\movie\happymoviehd\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 C:\xampp\htdocs\movie\happymoviehd\app\Models\Video_Model.php(202): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Home.php(61): App\Models\Video_Model->get_list_popular(1)
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -63,18 +63,32 @@ foreach ($list['list'] as $val) {
         <a onclick="goView('<?= $val['movie_id'] ?>', '<?=$url_name?>', 'se')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
       </h2>
       
+      <div class="movie-score">
       <?php
         if( !empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0 ){
-          if( strpos($val['movie_ratescore'],'.') ){
-            $score = substr($val['movie_ratescore'],0,3);
+          $score = $val['movie_ratescore']/2;
+          if( strpos($score,'.') ){
+            $score = substr($score,0,3);
           }else{
-            $score = substr($val['movie_ratescore'],0);
+            $score = substr($score,0);
           }
+
+          
+
+          for($i=1;$i<=$score;$i++){
       ?>
-      <div class="movie-score">
-        <i class="fas fa-star"></i> <?=$score?>
+        <i class="fas fa-star"></i>
+      <?php 
+          }
+
+          if(strpos($score,'.')==true && $score<5 ){
+      ?>
+      <i class="fas fa-star-half"></i>
+      <?php
+          }
+        } 
+      ?>
       </div>
-      <?php } ?>
 
     </div>
   </li>

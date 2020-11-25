@@ -78,29 +78,32 @@
     <!-- Navigation -->
     <nav id="movie-menu" class="navbar navbar-expand-lg navbar-light static-top">
       <div class="container">
-        <a class="navbar-brand" href="<?php echo base_url() ?>">
-          <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> ">
-        </a>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
 
+          <ul class="navbar-nav">
             <li class="nav-item <?= $chk_act['home'] ?>">
-              <a class="nav-link" href="<?php echo base_url() ?>">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">หนัง <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-medkit"></span> หนัง <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Cosmetics</a></li>
+                <li><a href="#">Medicines</a></li>
+              </ul>
             </li>
             <li class="nav-item <?= $chk_act['poppular'] ?>">
-              <a class="nav-link" href="<?php echo base_url('popular') ?>">Popular</a>
-            </li>
-            <li class="nav-item <?= $chk_act['netflix'] ?>">
-              <a class="nav-link" href="<?=base_url('/category/28/Netflix-Movie')?>">Netflix</a>
-            </li>
-            <li class="nav-item <?= $chk_act['category'] ?>">
-              <a class="nav-link" href="<?php echo base_url('category') ?>">CATEGORY</a>
+              <a class="nav-link" href="<?php echo base_url('popular') ?>">Jav</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('contract') ?>">ติดต่อ | ขอหนัง</a>
             </li>
           </ul>
+
+          <a class="navbar-brand m-auto" href="<?php echo base_url() ?>">
+            <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> ">
+          </a>
+
           <form id="movie-formsearch">
             <div class="input-group" id="adv-search">
               <?php

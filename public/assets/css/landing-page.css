@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #000;
+  background-color: #404040;
 }
 
 h1,
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #000;
   font-family: 'Prompt', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
@@ -145,7 +145,7 @@ a:focus {
 }
 
 section {
-  background-color: #191919;
+  background-color: #ffffff;
   padding-top: 20px;
 }
 
@@ -160,7 +160,7 @@ section {
 
 #movie-menu {
   width: 100%;
-  background: linear-gradient(to bottom, #000000, transparent);
+  background: #fff;
   position: absolute;
   z-index: 2;
 }
@@ -171,21 +171,14 @@ img.logo {
 
 #movie-menu .navbar-nav .nav-link {
   text-transform: uppercase;
-  color: #9c9c9c;
+  color: #404040;
+  font-weight: 600;
 }
 
+#movie-menu .navbar-nav .nav-link:hover,
 #movie-menu .navbar-nav .active>.nav-link{
-  color:#ffffff;
+  color:#000;
   position: relative;
-}
-
-#movie-menu .navbar-nav .active>.nav-link:after {
-  content: '•';
-  font-size: 26px;
-  position: absolute;
-  top: 19px;
-  right: 48%;
-  width: max-content;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -193,14 +186,18 @@ img.logo {
   padding-left: 1.2rem;
 }
 
-.navbar-expand-lg .navbar-nav .dropdown-item {
-  text-transform: uppercase;
-}
+/* #movie-menu .navbar-nav .dropdown {
+  position: absolute;
+  left: 0;
+  width: 100%;
+} */
 
-.navbar-expand-lg .navbar-nav .dropdown-item:active,
-.navbar-expand-lg .navbar-nav .dropdown-item.active {
-  background: #ffffff;
-  font-weight: 700;
+#movie-menu .navbar-nav .dropdown-menu {
+  position: absolute;
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  left: 0;
 }
 
 #movie-formsearch {
@@ -211,7 +208,7 @@ img.logo {
   width: 41px;
   background: transparent;
   border: #7b7b7b solid 1px;
-  color: #fff;
+  color: #404040;
   font-size: 16px;
   padding: 5px 15px;
   outline: none;
@@ -228,11 +225,7 @@ img.logo {
   color: transparent;
 }
 
-.movie-search:-moz-value {
-  color: transparent;
-}
-
-.movie-search::-webkit-input-value {
+.movie-search {
   color: transparent;
 }
 
@@ -244,15 +237,8 @@ img.logo {
   color: #9c9c9c;
 }
 
-.movie-search:focus:-moz-value  {
-  color: #9c9c9c;
-}
-
-.movie-search:focus::-webkit-input-value {
-  color: #9c9c9c;
-}
-
 .movie-search:focus {
+  color: #404040;
   width: 100%;
 }
 
@@ -264,7 +250,7 @@ img.logo {
   position: absolute;
   right: 4px;
   top: 2px;
-  background: #000;
+  background: transparent;
   outline: none;
 }
 
@@ -279,7 +265,7 @@ img.logo {
 }
 
 #movie-formsearch .movie-search-button i {
-  color: #ffffff;
+  color: #404040;
 }
 
 @media (min-width: 321px) and (max-width: 1024px) {
@@ -340,7 +326,7 @@ img.logo {
   right: 2rem;
 }
 
-#HomeSlide .swiper-button-next::after, .swiper-button-prev::after {
+#HomeSlide .swiper-button-next::after, #HomeSlide .swiper-button-prev::after {
   font-size: 30px;
 }
 
@@ -588,6 +574,191 @@ img.logo {
 
 }
 
+section.movie-popular {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(to bottom, #404040, #232323);
+  background-image: url(/public/assets/img/hiclipart.png);
+  background-size: cover;
+  background-position: top;
+}
+
+section.movie-popular .movie-title-list h1{
+  color: #fff;
+  font-weight: normal;
+}
+
+section.movie-popular .movie-title-list h1 span {
+  color: #fff;
+  font-weight: 600;
+}
+
+
+section.movie-popular #Popular.swiper-container {
+  width: 80%;
+  right: 0;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 1rem;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 3px;
+  background: #232323;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box {
+  width: 184px;
+  height: 264px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box a img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box a img:hover {
+  transform: scale(1.1);
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box .movie-overlay {
+  bottom: 0;
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, #353535,transparent, transparent);
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box .movie-view {
+  position: absolute;
+  left: 0;
+  padding: 0 8px;
+  color: #333333;
+  background: #fff;
+  font-weight: 700;
+  border-bottom-right-radius: 50px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box .movie-quality {
+  position: absolute;
+  width: 60px;
+  right: 0;
+  padding: 0 4px 0 8px;
+  color: #fff;
+  background: #333333;
+  font-size: 12px;
+  font-weight: 700;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  text-transform: uppercase;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide .movie-box .movie-sound {
+  position: absolute;
+  width: max-content;
+  right: 0;
+  top: 20px;
+  padding: 0 4px 0 8px;
+  color: #fff;
+  background: #676767;
+  font-size: 12px;
+  font-weight: 100;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in {
+  position: relative;
+  width: 184px;
+  height: max-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+  background-color: transparent;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in h2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in h2:hover {
+  transform: scale(1.1);
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in h2 a {
+  font-weight: 400;
+  word-break: break-word;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in h2 a:hover {
+  text-decoration: none;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-slide div.title-in .movie-score {
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  margin-left: auto;
+  text-align: center;
+  font-style: italic;
+  padding: 0 5px;
+  padding-top: 5px;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-button-prev {
+  left: 0;
+  padding: 0 15px;
+  width: fit-content;
+}
+
+section.movie-popular #Popular.swiper-container .swiper-button-hidden{ 
+  opacity: 0; 
+}
+
 #movie-list {
   flex-direction: column;
 }
@@ -614,23 +785,20 @@ ul.list-movie {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   list-style: none;
-  background: #353535;
 }
 
 ul.list-movie > li {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  border-radius: 5px;
+  margin: 3px;
+  background: #232323;
 }
 
 ul.list-movie > li .movie-box {
-  width: 190px;
+  width: 184px;
   height: 264px;
   position: relative;
   overflow: hidden;
@@ -638,6 +806,8 @@ ul.list-movie > li .movie-box {
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 ul.list-movie > li .movie-box a img {
@@ -704,12 +874,14 @@ ul.list-movie > li .movie-box .movie-sound {
 
 ul.list-movie > li div.title-in {
   position: relative;
-  width: 190px;
+  width: 184px;
   height: max-content;
   padding-top: 10px;
   padding-bottom: 10px;
   bottom: 0;
   background-color: transparent;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 ul.list-movie > li div.title-in h2 {
@@ -742,7 +914,7 @@ ul.list-movie > li div.title-in .movie-score {
   font-size: 14px;
   color: #fff;
   margin-left: auto;
-  text-align: right;
+  text-align: center;
   font-style: italic;
   padding: 0 5px;
   padding-top: 5px;
@@ -1013,16 +1185,16 @@ ul.list-popular > li div.movie-area h1.movie-title-th {
   width: 100%;
 }
 
-#movie-video #movie-player .movie-episode {
+#movie-video #movie-player .movie-popular {
   margin-bottom: 2rem;
 }
 
-#movie-video #movie-player .movie-episode #NextEP.swiper-container {
+.movie-popular #NextEP.swiper-container {
   width: 100%;
   height: 100%;
 }
 
-#movie-video #movie-player .movie-episode #NextEP .swiper-slide {
+.movie-popular #NextEP .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -1617,10 +1789,10 @@ ul.movie-category {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 2rem auto;
-  background: #fff;
+  background: #404040;
   border: none;
   padding: 5px 20px;
-  color: #000;
+  color: #fff;
   border-radius: 4px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -1633,7 +1805,7 @@ ul.movie-category {
 }
 
 #movie-footer p {
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 

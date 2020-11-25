@@ -58,12 +58,14 @@ class Home extends BaseController
 		];
 
 		$list = $this->VideoModel->get_list_video($this->branch);
+		$popular = $this->VideoModel->get_list_popular($this->branch);
 		$adsbottom = $this->VideoModel->get_adsbottom($this->branch);
 
 		$body_data = [
 			'url_loadmore' => base_url('moviedata'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
+			'popular' => $popular,
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
 		];

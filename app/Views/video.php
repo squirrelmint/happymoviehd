@@ -109,9 +109,20 @@
                 }else{
                   $score = substr($videodata['movie_ratescore'],0);
                 }
+
+                for($i=0;$i<=$score;$i++){
             ?>
-              <i class="fas fa-star"></i> <?= $score ?>
-              <?php } ?>
+              <i class="fas fa-star"></i>
+            <?php 
+                }
+
+                if(strpos($score,'.')==true){
+            ?>
+            <i class="fas fa-star-half"></i>
+            <?php
+                }
+              } 
+            ?>
             </div>
             
             <div class="movie-social">
