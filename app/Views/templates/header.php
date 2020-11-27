@@ -79,28 +79,73 @@
     <nav id="movie-menu" class="navbar navbar-expand-lg navbar-light static-top">
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
 
-          <ul class="navbar-nav">
-            <li class="nav-item <?= $chk_act['home'] ?>">
-              <a class="nav-link" href="#">หนัง <i class="fas fa-chevron-down"></i></a>
+          <ul id="movie-navbar" class="navbar-nav">
+            <li class="nav-item subnav <?= $chk_act['home'] ?>">
+              <a class="nav-link" href="<?=base_url()?>">หนัง <i class="fas fa-chevron-down"></i></a>
+              <div class="subnav-content">
+                <div class="container">
+                  <div class="subnav-part">
+                    <div class="subnav-part-title">Category Movie</div>
+                    <ul>
+                    <?php
+                      if(!empty($movie_category)){
+                        foreach($movie_category as $moviecate){
+                          $cateurl = urlencode(str_replace(' ','-',$moviecate['category_name']));
+                    ?>
+                      <li><a href="<?=base_url('/category/'.$moviecate['category_id'].'/'.$cateurl)?>"><?=$moviecate['category_name']?></a></li>
+                    <?php 
+                        }
+                      }
+                    ?>
+                    </ul>
+                  </div>
+                  <div class="subnav-part">
+                    <div class="subnav-part-title subnav-link">
+                      <a href="<?=base_url('/popular')?>">Popular</a>
+                    </div>
+                    <div class="subnav-part-title subnav-link">
+                      <a href="<?=base_url('/category/28/Netflix-Movie')?>">Netflix</a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
             </li>
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-medkit"></span> หนัง <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Beauty</a></li>
-                <li><a href="#">Cosmetics</a></li>
-                <li><a href="#">Medicines</a></li>
-              </ul>
-            </li>
-            <li class="nav-item <?= $chk_act['poppular'] ?>">
-              <a class="nav-link" href="<?php echo base_url('popular') ?>">Jav</a>
+            <li class="nav-item subnav <?= $chk_act['home'] ?>">
+              <a class="nav-link" href="<?=base_url('/av')?>">Jav <i class="fas fa-chevron-down"></i></a>
+              <div class="subnav-content">
+                <div class="container">
+                  <div class="subnav-part">
+                    <div class="subnav-part-title">Category AV</div>
+                    <ul>
+                    <?php
+                      if(!empty($av_category)){
+                        foreach($av_category as $avcate){
+                          $cateurl = urlencode(str_replace(' ','-',$avcate['category_name']));
+                    ?>
+                      <li><a href="<?=base_url('av/category/'.$avcate['category_id'].'/'.$cateurl)?>"><?=$avcate['category_name']?></a></li>
+                    <?php 
+                        }
+                      }
+                    ?>
+                    </ul>
+                  </div>
+                  <div class="subnav-part">
+                  </div>
+                    
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('contract') ?>">ติดต่อ | ขอหนัง</a>
             </li>
           </ul>
 
-          <a class="navbar-brand m-auto" href="<?php echo base_url() ?>">
+          <a class="navbar-brand" href="<?php echo base_url() ?>">
             <img class="logo" src="<?= $path_setting . $setting['setting_logo'] ?> ">
           </a>
 
@@ -138,50 +183,18 @@
         var search = $.trim($("#movie-search").val())
 
         if (search) {
-          window.location.href = "/search/" + $("#movie-search").val();
+          window.location.href = "<?=$urlsearch?>" + $("#movie-search").val();
         } else {
           window.location.href = "<?= base_url() ?>";
         }
       }
+      function openMenu() {
+        var x = document.getElementById("movie-navbar");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
         
     </script>
-
-    <!-- Slider main container -->
-    <div id="HomeSlide" class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-          <!-- Slides -->
-
-          <div class="swiper-slide">
-            <div class="slider-area">
-              <h2 class="title-slider">Iron man</h2>
-            </div>
-            <img src="<?= $document_root ?>img_slide/1.jpg">
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider-area">
-              <h2 class="title-slider">ALIEN</h2>
-            </div>
-            <img src="<?= $document_root ?>img_slide/2.jpg">
-          </div>
-
-          <div class="swiper-slide">
-            <div class="slider-area">
-              <h2 class="title-slider">Joker</h2>
-            </div>
-            <img src="<?= $document_root ?>img_slide/3.jpg">
-          </div>
-
-      </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-    </div>
-  </header>

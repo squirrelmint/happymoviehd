@@ -16,7 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Movie');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -30,22 +30,43 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('video/(:num)/(:segment)', 'Home::video/$1/$2');
-$routes->get('/series/(:num)/(:segment)', 'Home::series/$1/$2');
-$routes->get('/series/(:num)/(:segment)/(:num)/(:any)', 'Home::series/$1/$2/$3/$4');
 
-$routes->get('moviedata', 'Home::moviedata');
-$routes->get('moviedata_search', 'Home::moviedata_search');
-$routes->get('moviedata_category', 'Home::moviedata_category');
+#Movie
+$routes->get('video/(:num)/(:segment)', 'Movie::video/$1/$2');
+$routes->get('/series/(:num)/(:segment)', 'Movie::series/$1/$2');
+$routes->get('/series/(:num)/(:segment)/(:num)/(:any)', 'Movie::series/$1/$2/$3/$4');
 
-$routes->get('player/(:num)/(:any)', 'Home::player/$1/$2');
-$routes->get('search/(:any)', 'Home::search/$1');
-$routes->get('popular', 'Home::popular');
-$routes->get('category', 'Home::categorylist');
-$routes->get('category/(:num)/(:any)', 'Home::category/$1/$2');
-$routes->get('contract', 'Home::contract');
+$routes->get('moviedata', 'Movie::moviedata');
+$routes->get('moviedata_search', 'Movie::moviedata_search');
+$routes->get('moviedata_category', 'Movie::moviedata_category');
 
-$routes->get('countview/(:num)', 'Home::countView/$1');
+$routes->get('player/(:num)/(:any)', 'Movie::player/$1/$2');
+$routes->get('search/(:any)', 'Movie::search/$1');
+$routes->get('popular', 'Movie::popular');
+$routes->get('category', 'Movie::categorylist');
+$routes->get('category/(:num)/(:any)', 'Movie::category/$1/$2');
+$routes->get('contract', 'Movie::contract');
+
+$routes->get('countview/(:num)', 'Movie::countView/$1');
+
+#Av
+$routes->get('av', 'Av::index');
+$routes->get('av/(:num)/(:segment)', 'Av::video/$1/$2');
+$routes->get('av/series/(:num)/(:segment)', 'Av::series/$1/$2');
+$routes->get('av/series/(:num)/(:segment)/(:num)/(:any)', 'Av::series/$1/$2/$3/$4');
+
+$routes->get('av/moviedata', 'Av::moviedata');
+$routes->get('av/moviedata_search', 'Av::moviedata_search');
+$routes->get('av/moviedata_category', 'Av::moviedata_category');
+
+$routes->get('av/player/(:num)/(:any)', 'Av::player/$1/$2');
+$routes->get('av/search/(:any)', 'Av::search/$1');
+$routes->get('av/popular', 'MovAvie::popular');
+$routes->get('av/category', 'Av::categorylist');
+$routes->get('av/category/(:num)/(:any)', 'Av::category/$1/$2');
+$routes->get('av/contract', 'Av::contract');
+
+$routes->get('countview/(:num)', 'Av::countView/$1');
 
 
 

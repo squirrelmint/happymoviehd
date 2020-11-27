@@ -1,0 +1,325 @@
+CRITICAL - 2020-11-26 00:18:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Home.php(474): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Home->countView('20016')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 00:18:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Home.php(474): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Home->countView('9203')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 00:21:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Home.php(474): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Home->countView('9113')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 00:37:16 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 00:43:33 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 00:43:33 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-26 03:24:57 --> Undefined variable: val
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Views\contract.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('contract.php', Array, true)
+#3 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Home.php(444): view('contract.php')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Home->contract()
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-26 04:20:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(483): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->countView('9887')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 04:20:18 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('9887', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:00:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(483): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('20033')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:00:10 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:01:13 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:04:50 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:09:07 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:13:16 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:13:34 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:14:18 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:14:56 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('9893')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:03 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('9893', '15')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('9852')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:19 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('9852', '2')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('9830')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:15:32 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('9830', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:16:19 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('9830', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:31:10 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('20033')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:31:16 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:31:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('20018')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:31:23 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20018', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:32:11 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20018', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:32:52 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(479): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20018', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:32:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('685')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:34:14 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(484): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->player('20018', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:34:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(483): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->countView('20033')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:34:38 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:36:21 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:36:44 --> Invalid file: {0}
+#0 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('player.php', Array, true)
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(478): view('player.php', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->player('20033', 'a')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-26 06:38:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(483): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->countView('20016')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
