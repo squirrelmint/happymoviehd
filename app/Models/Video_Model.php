@@ -592,81 +592,9 @@ class Video_Model extends Model
         return get_pagination($sql, $page, $perpage, $total);
     }
 
-
-
-    //ขอหนัง 
-
-    public function save_request($branch, $movie)
-
-    {
-
-
-        $bd =  $this->db->table($this->mo_request);
-
-        $this->db->transBegin();
-
-        $data =  [
-
-            'branch_id' => $branch,
-
-            'mo_request' => $movie
-
-        ];
-
-        try {
-
-            if ($bd->insert($data) == true) {
-
-                $this->db->transCommit();
-
-                return true;
-            }
-        } catch (\Exception $e) {
-
-            // throw new Exception("Error Insert user", 1);
-
-            $this->db->transRollback();
-
-            return $e->getMessage();
-        }
-    }
-
-    //ติดต่อลงโฆษณา 
-
-    public function save_contact_ads($namesurname, $email, $lineid, $phone, $branch_id)
-
-    {
-        $bd =  $this->db->table($this->mo_adscontact);
-        $this->db->transBegin();
-
-        $data =  [
-            'mo_adscontact_namesurname' => $namesurname,
-            'mo_adscontact_email' => $email,
-            'mo_adscontact_lineid' => $lineid,
-            'mo_adscontact_phone' => $phone,
-            'mo_adscontact_branch_id' => $branch_id
-        ];
-        try {
-
-            if ($bd->insert($data) == true) {
-                $this->db->transCommit();
-                return true;
-            }
-        } catch (\Exception $e) {
-
-            // throw new Exception("Error Insert user", 1);
-
-            $this->db->transRollback();
-
-            return $e->getMessage();
-        }
-    }
-
-
     //แจ้งหนังเสีย
 
     public function save_reports($branch, $id, $reason)
-
     {
 
         $bd =  $this->db->table($this->report_movie);
@@ -758,4 +686,59 @@ class Video_Model extends Model
             return $e->getMessage();
         }
     }
+
+    // นับจำนวนผู้ชม
+    public function countView($id)
+    {
+        $sql = "SELECT
+                    `$this->table_movie`.movie_id,
+                     `$this->table_movie`.movie_thname,
+                    `$this->table_movie`.movie_view
+                FROM
+                    $this->table_movie
+                WHERE `$this->table_movie`.movie_id = '$id' ";
+
+        $query = $this->db->query($sql);
+        $data = $query->getResultArray();
+
+        if ($data[0]['movie_view'] == 0 || empty($data[0]['movie_view'])) {
+
+            $movie_view_add = 1;
+
+        } else {
+
+            $movie_view_add = $data[0]['movie_view']+1;
+
+        }
+
+        $builder = $this->db->table($this->table_movie);
+        $builder->where('movie_id', $id);
+        $this->db->transBegin();
+
+        $dataadd =  [
+
+            'movie_view' =>  $movie_view_add,
+
+        ];
+
+
+        try {
+
+            if ($builder->update($dataadd) == true) {
+                $this->db->transCommit();
+                // return true;
+            }
+
+        } catch (\Exception $e) {
+
+            // throw new Exception("Error Insert user", 1);
+            $this->db->transRollback();
+            // return $e->getMessage();
+
+        }
+
+        return $movie_view_add;
+
+    }
+    
 }

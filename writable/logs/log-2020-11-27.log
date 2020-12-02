@@ -371,3 +371,21 @@ CRITICAL - 2020-11-27 02:09:06 --> Undefined variable: val
 #6 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2020-11-27 23:33:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(429): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->countView('20033')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:50:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1190): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\Model.php(1700): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(429): CodeIgniter\Model->__call('countView', Array)
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->countView('9884')
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

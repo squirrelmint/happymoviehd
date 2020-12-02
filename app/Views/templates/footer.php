@@ -11,6 +11,23 @@
     </div>
   </footer>
 
+  <script>
+
+    function onClickAds(adsid, branch) {
+
+      var backurl = '<?= $backURL ?>';
+      debugger;
+      jQuery.ajax({
+          url: backurl + "ads/sid/<?= session_id() ?>/adsid/" + adsid + "/branch/" + branch,
+          async: true,
+          success: function(response) {
+              console.log(response); // server response
+          }
+      });
+
+    }
+  </script>
+  
   </body>
 
-  </html>
+</html>

@@ -40,19 +40,14 @@
       countView(id);
 
       var url = '';
-      if(type=='se'){
-        url = "<?=base_url()?>/av/" + id + '/' + name ;
+      if(type=='cl'){
+        url = "<?=base_url()?>/av/clips/" + id + '/' + name ;
       }else{
         url = "<?=base_url()?>/av/" + id + '/' + name ;
       }
 
       window.open(url, '_blank');
 
-    }
-
-    function goEP(id, name, index, epname) {
-      countView(id);
-      window.location.href = "<?=base_url()?>/av/series/" + id + '/' + name + '/' + index + '/' + epname ;
     }
   
     function countView(id) {
@@ -79,20 +74,6 @@
 
     function goCate(id, name) {
       window.location.href = "<?=base_url()?>/av/category/" + id + '/' + name ;
-    }
-
-    /* Set the width of the side navigation to 0 */
-    /* Set the width of the side navigation to 250px */
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-      document.body.style.overflow = 'hidden'
-      document.getElementById("overlay").style.display = "block";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.body.style.overflow = 'auto'
-      document.getElementById("overlay").style.display = "none";
     }
     
   </script>

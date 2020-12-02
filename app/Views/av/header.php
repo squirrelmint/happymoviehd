@@ -14,17 +14,22 @@
       </div>
 
       <div class="av-social">
-        <a href="#" target="_blank">
+
+      <?php 
+        if(!empty($setting['setting_fb'])){
+      ?>
+        <a href="<?=$setting['setting_fb']?>" target="_blank">
           <i class="fab fa-facebook-square"></i>
         </a>  
-
-        <a target="_blank" href="#">
+      <?php } ?>
+      
+      <?php 
+        if(!empty($setting['setting_line'])){
+      ?>
+        <a target="_blank" href="<?=$setting['setting_line']?>">
           <i class="fab fa-twitter"></i>
         </a>
-
-        <a href="#" target="_blank">
-          <i class="fab fa-line"></i>
-        </a>
+      <?php } ?>
 
       </div>
 

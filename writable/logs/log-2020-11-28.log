@@ -1,0 +1,36 @@
+CRITICAL - 2020-11-28 01:36:23 --> Undefined variable: id
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Models\Av_Model.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 315, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(393): App\Models\Av_Model->get_clips(2, 1)
+#2 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->clipslist()
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-28 01:36:53 --> Undefined variable: title
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Views\av\list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('av/list.php', Array, true)
+#3 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(431): view('av/list.php', Array)
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->clipslist()
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:37:40 --> Undefined variable: keyword
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Views\av\list.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 189, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\movie\happymoviehd\system\Common.php(1071): CodeIgniter\View\View->render('20', Array, true)
+#3 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(432): view('av/list.php', Array)
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->clipslist()
+#5 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#6 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-28 01:39:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Models\Video_Model.php(704): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 704, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\AV.php(499): App\Models\Video_Model->countView('1073743252')
+#2 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Av->countView('1073743252')
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Av))
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

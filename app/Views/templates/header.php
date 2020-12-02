@@ -9,7 +9,6 @@
   <meta name="keywords" content="<?php echo $setting['setting_keyword']; ?>">
 
   <!-- TAG og facebook -->
-
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="<?php echo base_url(); ?>" />
 	<meta property="og:title" content="<?php echo $setting['setting_title']; ?>" />
@@ -115,7 +114,7 @@
                 </div>
               </div>
             </li>
-            <li class="nav-item subnav <?= $chk_act['home'] ?>">
+            <li class="nav-item subnav <?= $chk_act['av'] ?>">
               <a class="nav-link" href="<?=base_url('/av')?>">Jav <i class="fas fa-chevron-down"></i></a>
               <div class="subnav-content">
                 <div class="container">
@@ -135,13 +134,16 @@
                     </ul>
                   </div>
                   <div class="subnav-part">
+                    <div class="subnav-part-title subnav-link">
+                      <a href="<?=base_url('av/clips')?>">Clips 18+</a>
+                    </div>
                   </div>
                     
                 </div>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('contract') ?>">ติดต่อ | ขอหนัง</a>
+            <li class="nav-item <?= $chk_act['contract'] ?>">
+              <a class="nav-link" href="<?php echo $contectUrl?>">ติดต่อ | ขอหนัง</a>
             </li>
           </ul>
 

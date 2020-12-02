@@ -48,12 +48,15 @@ $routes->get('category/(:num)/(:any)', 'Movie::category/$1/$2');
 $routes->get('contract', 'Movie::contract');
 
 $routes->get('countview/(:num)', 'Movie::countView/$1');
+$routes->post('save_requests', 'Movie::save_requests');
+$routes->post('con_ads', 'Movie::con_ads');
+$routes->post('saveReport', 'Movie::saveReport');
 
 #Av
 $routes->get('av', 'Av::index');
 $routes->get('av/(:num)/(:segment)', 'Av::video/$1/$2');
-$routes->get('av/series/(:num)/(:segment)', 'Av::series/$1/$2');
-$routes->get('av/series/(:num)/(:segment)/(:num)/(:any)', 'Av::series/$1/$2/$3/$4');
+$routes->get('av/clips/(:num)/(:segment)', 'Av::clips/$1/$2');
+
 
 $routes->get('av/moviedata', 'Av::moviedata');
 $routes->get('av/moviedata_search', 'Av::moviedata_search');
@@ -62,11 +65,14 @@ $routes->get('av/moviedata_category', 'Av::moviedata_category');
 $routes->get('av/player/(:num)/(:any)', 'Av::player/$1/$2');
 $routes->get('av/search/(:any)', 'Av::search/$1');
 $routes->get('av/popular', 'MovAvie::popular');
-$routes->get('av/category', 'Av::categorylist');
+$routes->get('av/clips', 'Av::clipslist');
 $routes->get('av/category/(:num)/(:any)', 'Av::category/$1/$2');
 $routes->get('av/contract', 'Av::contract');
 
 $routes->get('countview/(:num)', 'Av::countView/$1');
+$routes->post('save_requests', 'Av::save_requests');
+$routes->post('con_ads', 'Av::con_ads');
+$routes->post('saveReport', 'Av::saveReport');
 
 
 

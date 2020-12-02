@@ -23,7 +23,7 @@
                 $ads_picture = $path_ads . $ads['ads_picture'];
               }
         ?>
-          <a href="<?=$ads['ads_url']?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
+          <a onclick="onClickAds(<?= $ads['ads_id']; ?>, <?= $branch ?>)" href="<?=$ads['ads_url']?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
             <img class="banners" src="<?=$ads_picture?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
           </a>
         <?php
@@ -123,76 +123,102 @@
   <section class="text-center">
     <div class="container">
       <div class="row">
-
-        <ul id="list-av" class="list-av">
-
-          <?PHP
-          foreach ($list['list'] as $val) {
-          ?>
-            <li>
-              <div class="av-box">
-
-                <?php if (substr($val['movie_picture'], 0, 4) == 'http') {
-                  $movie_picture = $val['movie_picture'];
-                } else {
-                  $movie_picture = $path_thumbnail . $val['movie_picture'];
-                }
-
-                $url_name = urlencode(str_replace(' ', '-', $val['movie_thname']));
-                ?>
-
-                <a onclick="goView('<?= $val['movie_id'] ?>', '<?=$url_name?>' , '<?=$val['movie_type']?>')" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
-                  <img src="<?= $movie_picture ?>" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
-                  <div class="av-overlay"></div>
-                </a>
-                
-                <?php
-                  if (!($val['movie_view'])) {
-                    $view = 0;
-                  } else if (strlen($val['movie_view']) >= 5) {
-                    $view =  substr($val['movie_view'], 0, -3) . 'k';
-                  } else {
-                    $view = $val['movie_view'];
-                  }
-                ?>
-                <div class="av-view"><?=$view?> <i class="fas fa-eye"></i> <span class="triangle"></span></div>
-
-
-                <?php 
-                  $sound_style=' style="top:0;" ';
-                  if(!empty($val['movie_quality'])){ 
-                    $sound_style='';
-                ?>
-                <span class="av-quality"><?=$val['movie_quality']?></span>
-                <?php } ?>
-
-              </div>
-              <div class="title-in">
-                <h2>
-                  <a onclick="goView('<?= $val['movie_id'] ?>', '<?=$url_name?>', '<?=$val['movie_type']?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
-                </h2>
-                
-                <div class="av-score">
-                <?php
-                  if( !empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0 ){
-                    $score = $val['movie_ratescore'];
-                    if( strpos($score,'.') ){
-                      $score = substr($score,0,3);
-                    }else{
-                      $score = substr($score,0);
-                    }
-                ?>
-                  <i class="fas fa-star"></i> <?=$score?>
-                <?php
-                  } 
-                ?>
-                </div>
-
-              </div>
-            </li>
-          <?php  } ?>
+        <ul id="menuMobile" class="nav nav-pills">
+          <li><a data-toggle="tab" href="#mb-home" class="active" >New</a></li>
+          <li><a data-toggle="tab" href="#mb-category">Category</a></li>
+          <li><a href="<?=base_url('av/clips');?>">Clips</a></li>
         </ul>
-        <button id="movie-loadmore">NEXT</button>
+        
+        <div class="tab-content">
+          <div id="mb-home" class="tab-pane fade in active show">
+            <ul id="list-av" class="list-av">
+
+              <?PHP
+              foreach ($list['list'] as $val) {
+              ?>
+                <li>
+                  <div class="av-box">
+
+                    <?php if (substr($val['movie_picture'], 0, 4) == 'http') {
+                      $movie_picture = $val['movie_picture'];
+                    } else {
+                      $movie_picture = $path_thumbnail . $val['movie_picture'];
+                    }
+
+                    $url_name = urlencode(str_replace(' ', '-', $val['movie_thname']));
+                    ?>
+
+                    <a onclick="goView('<?= $val['movie_id'] ?>', '<?=$url_name?>' , '<?=$val['movie_type']?>')" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+                      <img src="<?= $movie_picture ?>" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>">
+                      <div class="av-overlay"></div>
+                    </a>
+                    
+                    <?php
+                      if (!($val['movie_view'])) {
+                        $view = 0;
+                      } else if (strlen($val['movie_view']) >= 5) {
+                        $view =  substr($val['movie_view'], 0, -3) . 'k';
+                      } else {
+                        $view = $val['movie_view'];
+                      }
+                    ?>
+                    <div class="av-view"><?=$view?> <i class="fas fa-eye"></i> <span class="triangle"></span></div>
+
+
+                    <?php 
+                      $sound_style=' style="top:0;" ';
+                      if(!empty($val['movie_quality'])){ 
+                        $sound_style='';
+                    ?>
+                    <span class="av-quality"><?=$val['movie_quality']?></span>
+                    <?php } ?>
+
+                  </div>
+                  <div class="title-in">
+                    <h2>
+                      <a onclick="goView('<?= $val['movie_id'] ?>', '<?=$url_name?>', '<?=$val['movie_type']?>')" tabindex="-1" alt="<?= $val['movie_thname'] ?>" title="<?= $val['movie_thname'] ?>"><?= $val['movie_thname'] ?></a>
+                    </h2>
+                    
+                    <div class="av-score">
+                    <?php
+                      if( !empty($val['movie_ratescore']) && $val['movie_ratescore'] != 0 ){
+                        $score = $val['movie_ratescore'];
+                        if( strpos($score,'.') ){
+                          $score = substr($score,0,3);
+                        }else{
+                          $score = substr($score,0);
+                        }
+                    ?>
+                      <i class="fas fa-star"></i> <?=$score?>
+                    <?php
+                      } 
+                    ?>
+                    </div>
+
+                  </div>
+                </li>
+              <?php  } ?>
+            </ul>
+            <button id="movie-loadmore">NEXT</button>
+          </div>
+          <div id="mb-category" class="tab-pane fade">
+            
+            <ul id="list-category-name">
+              <?php
+                if(!empty($av_category)){
+                  foreach($av_category as $avcate){
+                    $cateurl = urlencode(str_replace(' ','-',$avcate['category_name']));
+              ?>
+                <li><a href="<?=base_url('/av/category/'.$avcate['category_id'].'/'.$cateurl)?>"><?=$avcate['category_name']?></a></li>
+              <?php 
+                  }
+                }
+              ?>
+            </ul>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -210,7 +236,7 @@
                 $ads_picture = $path_ads . $ads['ads_picture'];
               }
         ?>
-          <a href="<?=$ads['ads_url']?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
+          <a onclick="onClickAds(<?= $ads['ads_id']; ?>, <?= $branch ?>)" href="<?=$ads['ads_url']?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
             <img class="banners" src="<?=$ads_picture?>" alt="<?=$ads['ads_name']?>" title="<?=$ads['ads_name']?>">
           </a>
         <?php

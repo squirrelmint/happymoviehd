@@ -13,6 +13,7 @@ class Av extends BaseController
 	public $document_root = '';
 	public $path_thumbnail = "https://anime.vip-streaming.com/";
 	public $path_slide = "";
+	public $contectUrl = "";
 
 	public function __construct()
 	{
@@ -29,6 +30,7 @@ class Av extends BaseController
 		$this->path_ads = $this->backURL . 'banners/';
 		$this->path_setting = $this->backURL . 'setting/';
 		$this->path_slide = $this->backURL . 'img_slide/';
+		$this->contectUrl = base_url('av/contract');
 
 		helper(['url', 'pagination', 'dateformat']);
 	}
@@ -40,21 +42,23 @@ class Av extends BaseController
 
 		$movie_category = $this->VideoModel->get_category($this->moviebranch);
 		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
 
 		$chk_act = [
-			'home' => 'active',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => '',
+			'home' => '',
+			'av' => 'active',
 			'contract' => ''
 		];
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_setting' => $this->path_setting,
 			'movie_category' => $movie_category,
 			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'chk_act' => $chk_act,
 			'setting' => $setting,
 			'urlsearch' => '/av/search/',
@@ -94,6 +98,7 @@ class Av extends BaseController
 
 		$movie_category = $this->VideoModel->get_category($this->moviebranch);
 		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
 		$date = get_date($videodata['movie_create']);
 
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
@@ -112,19 +117,21 @@ class Av extends BaseController
 		}
 
 		$chk_act = [
-			'home' => 'active',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => ''
+			'home' => '',
+			'av' => 'active',
+			'contract' => ''
 		];
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
 			'movie_category' => $movie_category,
 			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'chk_act' => $chk_act,
 			'urlsearch' => '/av/search/',
 		];
@@ -149,71 +156,71 @@ class Av extends BaseController
 		echo view('templates/footer.php');
 	}
 
-	public function series($id, $Name, $index = 0, $epname = '')
+	public function clips($id, $Name)
 	{
-		$setting = $this->VideoModel->get_setting($this->moviebranch);
-		$seo = $this->VideoModel->get_seo($this->moviebranch);
-		$series = $this->VideoModel->get_ep_series($id);
-		$videinterest = $this->VideoModel->get_video_interest($this->moviebranch);
-		$adstop = $this->VideoModel->get_adstop($this->moviebranch);
-		$adsbottom = $this->VideoModel->get_adsbottom($this->moviebranch);
+		$setting = $this->AvModel->get_setting($this->avbranch);
+		$seo = $this->AvModel->get_seo($this->avbranch);
+		$videodata = $this->AvModel->get_id_video($id);
+		$videinterest = $this->AvModel->get_clips_interest($this->avbranch);
+		$adstop = $this->AvModel->get_adstop($this->avbranch);
+		$adsbottom = $this->AvModel->get_adsbottom($this->avbranch);
 
-		if($epname==''){
-			$lastep = count($series['epdata']);
-			$index = $lastep-1;
-		}
-
-		$list_category = $this->VideoModel->get_category($this->moviebranch);
-		$date = get_date($series['movie_create']);
+		$movie_category = $this->VideoModel->get_category($this->moviebranch);
+		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
+		$date = get_date($videodata['movie_create']);
 
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
 		if( $seo ){
 
-			if(substr($series['movie_picture'], 0, 4) == 'http'){
-				$movie_picture = $series['movie_picture'];
+			if(substr($videodata['movie_picture'], 0, 4) == 'http'){
+				$movie_picture = $videodata['movie_picture'];
 			}else{
-				$movie_picture = $this->path_thumbnail . $vidserieseodata['movie_picture'];
+				$movie_picture = $this->path_thumbnail . $videodata['movie_picture'];
 			}
 
 			$setting['setting_img'] = $movie_picture; 
-			$setting['setting_description'] = str_replace("{movie_description}", $series['movie_des'], $seo['seo_description']);
-			$setting['setting_title'] = str_replace("{movie_title} - {title_web}", $series['movie_thname'] . " - " . $setting['setting_title'], $seo['seo_title']);
+			$setting['setting_description'] = str_replace("{movie_description}", $videodata['movie_des'], $seo['seo_description']);
+			$setting['setting_title'] = str_replace("{movie_title} - {title_web}", $videodata['movie_thname'] . " - " . $setting['setting_title'], $seo['seo_title']);
 		}
 
-		
 		$chk_act = [
-			'home' => 'active',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => ''
+			'home' => '',
+			'av' => 'active',
+			'contract' => ''
 		];
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
-			'list_category' => $list_category,
+			'movie_category' => $movie_category,
+			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'chk_act' => $chk_act,
+			'urlsearch' => '/av/search/',
 		];
 
 		$body_data = [
-			'url_loadmore' => base_url('moviedata') ,
+			'url_loadmore' => base_url('av/moviedata') ,
 			'path_thumbnail' => $this->path_thumbnail,
-			'videodata' => $series,
+			'videodata' => $videodata,
+			'videinterest' => $videinterest,
 			'adstop' => $adstop,
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
 			'DateEng' => $date['DateEng'],
 			'feildplay' => 'movie_thmain',
-			'index' => $index,
-			'videinterest' => $videinterest
+			'index' => 'a',
 		];
 
 		echo view('templates/header.php', $header_data);
 		echo view('av/header.php');
-		echo view('av/video.php', $body_data);
+		echo view('av/clips.php', $body_data);
 		echo view('av/footer.php');
 		echo view('templates/footer.php');
 	}
@@ -257,6 +264,19 @@ class Av extends BaseController
 		echo view('av/moviedata.php', $header_data);
 	}
 
+	public function moviedata_clips()
+	{
+		$list = $this->AvModel->get_clips($this->avbranch, $_GET['page']);
+
+		$header_data = [
+			'document_root' => $this->document_root,
+			'path_thumbnail' => $this->path_thumbnail,
+			'list' => $list,
+		];
+
+		echo view('av/moviedata.php', $header_data);
+	}
+
 	public function search($keyword)
 	{
 		$setting = $this->AvModel->get_setting($this->avbranch);
@@ -268,22 +288,24 @@ class Av extends BaseController
 		$adsbottom = $this->AvModel->get_adsbottom($this->avbranch);
 		$movie_category = $this->VideoModel->get_category($this->moviebranch);
 		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
 
 		$chk_act = [
-			'home' => 'active',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => '',
+			'home' => '',
+			'av' => 'active',
 			'contract' => ''
 		];
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
 			'movie_category' => $movie_category,
 			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'keyword' => $keyword,
 			'chk_act' => $chk_act,
 			'urlsearch' => '/av/search/',
@@ -311,16 +333,15 @@ class Av extends BaseController
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
 		$list = $this->AvModel->get_id_video_bycategory($this->avbranch, $cate_id, 1);
+		$adstop = $this->AvModel->get_adstop($this->avbranch);
 		$adsbottom = $this->AvModel->get_adsbottom($this->avbranch);
 		$movie_category = $this->VideoModel->get_category($this->moviebranch);
 		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
 		
 		$chk_act = [
 			'home' => '',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => 'active',
+			'av' => 'active',
 			'contract' => ''
 		];
 
@@ -337,10 +358,14 @@ class Av extends BaseController
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
 			'movie_category' => $movie_category,
 			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'chk_act' => $chk_act,
 			'urlsearch' => '/av/search/'
 		];
@@ -351,10 +376,60 @@ class Av extends BaseController
 			'url_loadmore' => base_url('/av/moviedata_category'),
 			'path_thumbnail' => $this->path_thumbnail,
 			'list' => $list,
+			'adstop' => $adstop,
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
-			'path_ads' => $this->path_ads,
+		];
 
+		echo view('templates/header.php', $header_data);
+		echo view('av/header.php');
+		echo view('av/list.php', $body_data);
+		echo view('av/footer.php');
+		echo view('templates/footer.php');
+	}
+
+	public function clipslist()
+	{
+
+		$setting = $this->AvModel->get_setting($this->avbranch);
+		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
+
+		$list = $this->AvModel->get_clips($this->avbranch, 1);
+		$adstop = $this->AvModel->get_adstop($this->avbranch);
+		$adsbottom = $this->AvModel->get_adsbottom($this->avbranch);
+		$movie_category = $this->VideoModel->get_category($this->moviebranch);
+		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
+		
+		$chk_act = [
+			'home' => '',
+			'av' => 'active',
+			'contract' => ''
+		];
+
+		$header_data = [
+			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
+			'path_setting' => $this->path_setting,
+			'setting' => $setting,
+			'movie_category' => $movie_category,
+			'av_category' => $av_category,
+			'cl_category' => $cl_category,
+			'chk_act' => $chk_act,
+			'urlsearch' => '/av/search/'
+		];
+
+		$body_data = [
+			'url_loadmore' => base_url('/av/moviedata_clips'),
+			'path_thumbnail' => $this->path_thumbnail,
+			'title' => 'ดูคลิปโป๊ออนไลน์ คลิปหลุด xxx',
+			'keyword' => '',
+			'list' => $list,
+			'adstop' => $adstop,
+			'adsbottom' => $adsbottom,
+			'path_ads' => $this->path_ads,
 		];
 
 		echo view('templates/header.php', $header_data);
@@ -369,28 +444,34 @@ class Av extends BaseController
 		$setting = $this->VideoModel->get_setting($this->moviebranch);
 		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
 
-		$list_category = $this->VideoModel->get_category($this->moviebranch);
+		$movie_category = $this->VideoModel->get_category($this->moviebranch);
+		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		$cl_category = $this->AvModel->get_category($this->avbranch, 'cl');
 		$adsbottom = $this->VideoModel->get_adsbottom($this->moviebranch);
 
 		$chk_act = [
 			'home' => '',
-			'poppular' => '',
-			'newmovie' => '',
-			'netflix' => '',
-			'category' => '',
+			'av' => '',
 			'contract' => 'active'
 		];
 
 		$header_data = [
 			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
 			'path_thumbnail' => $this->path_thumbnail,
 			'path_setting' => $this->path_setting,
 			'setting' => $setting,
 			'chk_act' => $chk_act,
-			'list_category' => $list_category,
+			'movie_category' => $movie_category,
+			'av_category' => $av_category,
+			'cl_category' => $cl_category,
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
-			'urlsearch' => '/av/search/'
+			'urlsearch' => '/av/search/',
+			'urlrequests' => base_url().'/av/save_requests/',
+			'urlconads' => base_url().'/av/con_ads/',
 		];
 
 		echo view('templates/header.php', $header_data);
@@ -426,7 +507,7 @@ class Av extends BaseController
 	{
 		$request_text = $_POST['request_text'];
 
-		$this->VideoModel->save_requests($this->moviebranch, $request_text);
+		$this->VideoModel->save_requests($this->avbranch, $request_text);
 	}
 
 	public function con_ads()
@@ -438,7 +519,7 @@ class Av extends BaseController
 
 		// print_r($_POST);
 		// die;
-		$this->VideoModel->con_ads($this->moviebranch, $ads_con_name, $ads_con_email, $ads_con_line, $ads_con_tel);
+		$this->VideoModel->con_ads($this->avbranch, $ads_con_name, $ads_con_email, $ads_con_line, $ads_con_tel);
 	}
 	
 }
