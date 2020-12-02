@@ -359,9 +359,10 @@
 
       var swiper = new Swiper('#Popular', {
         speed: 800,
+        grabCursor: true,
         slidesPerView: 2,
         slidesPerGroup: 2,
-        freeMode: true,
+        loop: true,
 
         // Slide auto play
         autoplay: {
@@ -377,13 +378,12 @@
           // when window width is >= 480px
           480: {
             slidesPerView: 3,
-            slidesPerGroup: 3,
-            spaceBetween: 30
+            slidesPerGroup: 3
           },
 
           769: {
             slidesPerView: 5,
-            slidesPerGroup: 5,
+            slidesPerGroup: 5
           }
         },
 

@@ -41,7 +41,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="<?= $document_root ?>assets/css/landing-page.css?v=2" rel="stylesheet">
+  <link href="<?= $document_root ?>assets/css/landing-page.css?v=3" rel="stylesheet">
 
   <?php
 

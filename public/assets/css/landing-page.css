@@ -708,9 +708,7 @@ section.movie-popular #Popular.swiper-container .swiper-wrapper {
   margin-top: 1rem;
   padding-left: 0px;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
   list-style: none;
 }
 
@@ -847,11 +845,11 @@ section.movie-popular #Popular.swiper-container .swiper-slide div.title-in .movi
   padding-top: 5px;
 }
 
-section.movie-popular #Popular.swiper-container .swiper-button-prev {
+/* section.movie-popular #Popular.swiper-container .swiper-button-prev {
   left: 0;
   padding: 0 15px;
   width: fit-content;
-}
+} */
 
 section.movie-popular #Popular.swiper-container .swiper-button-hidden{ 
   opacity: 0; 

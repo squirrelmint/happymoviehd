@@ -43,7 +43,7 @@
       ?>
       <ul id="menuMobile" class="nav nav-pills">
         <li><a href="<?=base_url('av/#mb-home')?>" >New</a></li>
-        <li><a data-toggle="tab" href="#mb-category" class="<?=$chkactive['cate']?>">Category</a></li>
+        <li><a data-toggle="tab" href="#mb-category" >Category</a></li>
         <li><a href="<?=base_url('av/clips');?>" class="<?=$chkactive['clips']?>">Clips</a></li>
       </ul>
 
