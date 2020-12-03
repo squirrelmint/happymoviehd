@@ -9,7 +9,7 @@ class Av extends BaseController
 	public $path_setting = "";
 	public $path_ads = "";
 	public $branch = 1;
-	public $backURL = "https://backend.movielive88.com/public/";
+	public $backURL = "https://backend.happymoviehd.com/public/";
 	public $document_root = '';
 	public $path_thumbnail = "https://anime.vip-streaming.com/";
 	public $path_slide = "";
@@ -345,17 +345,6 @@ class Av extends BaseController
 			'contract' => ''
 		];
 
-		if($cate_id == '28'){
-			$chk_act = [
-				'home' => '',
-				'poppular' => '',
-				'newmovie' => '',
-				'netflix' => 'active',
-				'category' => '',
-				'contract' => ''
-			];
-		}
-
 		$header_data = [
 			'document_root' => $this->document_root,
 			'contectUrl' => $this->contectUrl,
@@ -370,8 +359,9 @@ class Av extends BaseController
 			'urlsearch' => '/av/search/'
 		];
 
+		$cate_name = str_replace('|','/',urldecode($cate_name));
 		$body_data = [
-			'cate_name' => urldecode($cate_name),
+			'cate_name' => $cate_name,
 			'keyword' => $cate_id,
 			'url_loadmore' => base_url('/av/moviedata_category'),
 			'path_thumbnail' => $this->path_thumbnail,
@@ -507,7 +497,7 @@ class Av extends BaseController
 	{
 		$request_text = $_POST['request_text'];
 
-		$this->VideoModel->save_requests($this->avbranch, $request_text);
+		$this->AvModel->save_requests($this->avbranch, $request_text);
 	}
 
 	public function con_ads()
@@ -519,7 +509,7 @@ class Av extends BaseController
 
 		// print_r($_POST);
 		// die;
-		$this->VideoModel->con_ads($this->avbranch, $ads_con_name, $ads_con_email, $ads_con_line, $ads_con_tel);
+		$this->AvModel->con_ads($this->avbranch, $ads_con_name, $ads_con_email, $ads_con_line, $ads_con_tel);
 	}
 	
 }

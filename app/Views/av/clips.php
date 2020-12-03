@@ -124,10 +124,12 @@
               <div class="movie-category">
                 Category:
                 <?php 
+                  $searcharray = array(' ','/');
+                  $replacearray = array('-','|');
                   foreach ($videodata['cate_data'] as $val) { 
-                    $catename = str_replace(' ','-',$val['category_name']);
+                    $catename = str_replace($searcharray,$replacearray,$val['category_name']);
                 ?>
-                  <a href="<?php echo base_url().'/category/'.$val['category_id'].'/'.$catename ?>" target="_blank">
+                  <a href="<?php echo base_url().'/av/category/'.$val['category_id'].'/'.$catename ?>" target="_blank">
                     <span class="cate-name"><?= $val['category_name'] ?></span>
                   </a>
                 <?php } ?>

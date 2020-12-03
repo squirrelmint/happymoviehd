@@ -32,8 +32,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 #Movie
-$routes->get('video/(:num)/(:segment)', 'Movie::video/$1/$2');
-$routes->get('/series/(:num)/(:segment)', 'Movie::series/$1/$2');
+$routes->get('video/(:num)/(:any)', 'Movie::video/$1/$2');
+$routes->get('/series/(:num)/(:any)', 'Movie::series/$1/$2');
 $routes->get('/series/(:num)/(:segment)/(:num)/(:any)', 'Movie::series/$1/$2/$3/$4');
 
 $routes->get('moviedata', 'Movie::moviedata');
@@ -43,6 +43,7 @@ $routes->get('moviedata_category', 'Movie::moviedata_category');
 $routes->get('player/(:num)/(:any)', 'Movie::player/$1/$2');
 $routes->get('search/(:any)', 'Movie::search/$1');
 $routes->get('popular', 'Movie::popular');
+$routes->get('moviedata_popular', 'Movie::moviedata_popular');
 $routes->get('category', 'Movie::categorylist');
 $routes->get('category/(:num)/(:any)', 'Movie::category/$1/$2');
 $routes->get('contract', 'Movie::contract');
@@ -54,8 +55,8 @@ $routes->post('saveReport', 'Movie::saveReport');
 
 #Av
 $routes->get('av', 'Av::index');
-$routes->get('av/(:num)/(:segment)', 'Av::video/$1/$2');
-$routes->get('av/clips/(:num)/(:segment)', 'Av::clips/$1/$2');
+$routes->get('av/(:num)/(:any)', 'Av::video/$1/$2');
+$routes->get('av/clips/(:num)/(:any)', 'Av::clips/$1/$2');
 
 
 $routes->get('av/moviedata', 'Av::moviedata');

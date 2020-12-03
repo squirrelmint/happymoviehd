@@ -9,11 +9,12 @@ class Movie extends BaseController
 	public $path_setting = "";
 	public $path_ads = "";
 	public $branch = 1;
-	public $backURL = "https://backend.movielive88.com/public/";
+	public $backURL = "https://backend.happymoviehd.com/public/";
 	public $document_root = '';
 	public $path_thumbnail = "https://anime.vip-streaming.com/";
 	public $path_slide = "";
-	public $contectUrl = "";
+	public $searchUrl = "";
+	public $contactUrl = "";
 
 	public function __construct()
 	{
@@ -76,7 +77,6 @@ class Movie extends BaseController
 			'adsbottom' => $adsbottom,
 			'path_ads' => $this->path_ads,
 		];
-
 
 		echo view('templates/header.php', $header_data);
 		echo view('movie/header.php');
@@ -148,6 +148,7 @@ class Movie extends BaseController
 		echo view('templates/header.php', $header_data);
 		echo view('movie/header.php');
 		echo view('movie/video.php', $body_data);
+		echo view('movie/footer.php');
 		echo view('templates/footer.php');
 	}
 
@@ -219,6 +220,7 @@ class Movie extends BaseController
 		echo view('templates/header.php', $header_data);
 		echo view('movie/header.php');
 		echo view('movie/video.php', $body_data);
+		echo view('movie/footer.php');
 		echo view('templates/footer.php');
 	}
 
@@ -251,6 +253,19 @@ class Movie extends BaseController
 	public function moviedata_category()
 	{
 		$list = $this->VideoModel->get_id_video_bycategory($this->moviebranch, $_GET['keyword'], $_GET['page']);
+
+		$header_data = [
+			'document_root' => $this->document_root,
+			'path_thumbnail' => $this->path_thumbnail,
+			'list' => $list,
+		];
+
+		echo view('movie/moviedata.php', $header_data);
+	}
+
+	public function moviedata_popular()
+	{
+		$list = $this->VideoModel->get_popular($this->moviebranch, $_GET['page']);
 
 		$header_data = [
 			'document_root' => $this->document_root,
@@ -306,6 +321,7 @@ class Movie extends BaseController
 		echo view('templates/header.php', $header_data);
 		echo view('movie/header.php');
 		echo view('movie/list.php', $body_data);
+		echo view('movie/footer.php');
 		echo view('templates/footer.php');
 	}
 
@@ -355,6 +371,57 @@ class Movie extends BaseController
 		echo view('templates/header.php', $header_data);
 		echo view('movie/header.php');
 		echo view('movie/list.php', $body_data);
+		echo view('movie/footer.php');
+		echo view('templates/footer.php');
+	}
+
+	public function popular()
+	{
+
+		$setting = $this->VideoModel->get_setting($this->moviebranch);
+		$setting['setting_img'] = $this->path_setting . $setting['setting_logo'];
+
+		$list = $this->VideoModel->get_popular($this->moviebranch, 1);
+		$adstop = $this->VideoModel->get_adstop($this->moviebranch);
+		$adsbottom = $this->VideoModel->get_adsbottom($this->moviebranch);
+		$movie_category = $this->VideoModel->get_category($this->moviebranch);
+		$av_category = $this->AvModel->get_category($this->avbranch, 'av');
+		
+		$chk_act = [
+			'home' => 'active',
+			'av' => '',
+			'contract' => ''
+		];
+
+		$header_data = [
+			'document_root' => $this->document_root,
+			'contectUrl' => $this->contectUrl,
+			'branch' => $this->avbranch,
+			'backURL' =>$this->backURL,
+			'path_setting' => $this->path_setting,
+			'setting' => $setting,
+			'movie_category' => $movie_category,
+			'av_category' => $av_category,
+			'chk_act' => $chk_act,
+			'urlsearch' => '/search/',
+		];
+
+		$body_data = [
+			'cate_name' => 'Popular',
+			'keyword' => '',
+			'url_loadmore' => base_url('moviedata_popular'),
+			'path_thumbnail' => $this->path_thumbnail,
+			'list' => $list,
+			'adstop' => $adstop,
+			'adsbottom' => $adsbottom,
+			'path_ads' => $this->path_ads,
+
+		];
+
+		echo view('templates/header.php', $header_data);
+		echo view('movie/header.php');
+		echo view('movie/popular.php', $body_data);
+		echo view('movie/footer.php');
 		echo view('templates/footer.php');
 	}
 

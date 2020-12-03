@@ -127,13 +127,13 @@
                   $score = substr($score,0);
                 }
 
-                for($i=0;$i<=$score;$i++){
+                for($i=1;$i<=$score;$i++){
             ?>
               <i class="fas fa-star"></i>
             <?php 
                 }
 
-                if(strpos($score,'.')==true){
+                if(strpos($score,'.')==true && $score<5 ){
             ?>
             <i class="fas fa-star-half"></i>
             <?php
@@ -148,8 +148,10 @@
           <div class="movie-category">
             Category:
             <?php 
+              $searcharray = array(' ','/');
+              $replacearray = array('-','|');
               foreach ($videodata['cate_data'] as $val) { 
-                $catename = str_replace(' ','-',$val['category_name']);
+                $catename = str_replace($searcharray,$replacearray,$val['category_name']);
             ?>
               <a href="<?php echo base_url().'/category/'.$val['category_id'].'/'.$catename ?>" target="_blank">
                 <span class="cate-name"><?= $val['category_name'] ?></span>

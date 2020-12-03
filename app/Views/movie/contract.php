@@ -27,7 +27,7 @@
                 กรุณากรอกชื่อ นามสกุล และ ห้ามใช้ เครื่องหมาย  < > , ; 
               </div>
               <label for="ads_con_email"> Email :</label>
-              <input id="ads_con_email" type="text" class="form-control" pattern="([^,<>;]+)|(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$)" required autocomplete="off">
+              <input id="ads_con_email" type="text" class="form-control" pattern="(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$)" required autocomplete="off">
               <div class="invalid-feedback">
                 กรุณากรอก Email เช่น " xxx@xxx.com " และ ห้ามใช้ เครื่องหมาย  < > , ; 
               </div>
@@ -37,7 +37,7 @@
                 กรุณากรอก Line ID และ ห้ามใช้ เครื่องหมาย  < > , ; 
               </div>
               <label for="ads_con_tel"> เบอร์โทรศัพท์ :</label>
-              <input id="ads_con_tel" type="text" class="form-control" required autocomplete="off" pattern="([^,<>;]+)|(^0([8|9|6])([0-9]{8}$))">
+              <input id="ads_con_tel" type="text" class="form-control" required autocomplete="off" pattern="(^0([8|9|6])([0-9]{8}$))">
               <div class="invalid-feedback">
                 กรุณากรอก เบอร์โทรศัพท์ 10หลัก เช่น " 0600000000 " และ ห้ามใช้ เครื่องหมาย  < > , ; 
               </div>

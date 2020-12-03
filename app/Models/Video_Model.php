@@ -223,6 +223,26 @@ class Video_Model extends Model
 
     }
 
+    public function get_popular($branchid, $page = 1)
+    {
+        $year = date("Y");
+        $sql = "SELECT
+                    *
+                FROM
+                $this->table_movie
+                WHERE
+                    `$this->table_movie`.branch_id = '$branchid'
+                    AND `$this->table_movie`.movie_year = '$year'
+                    AND `$this->table_movie`.movie_active = '1' 
+                ORDER BY `$this->table_movie`.movie_ratescore  DESC ";
+
+        $query = $this->db->query($sql);
+        $total = count($query->getResultArray());
+        $perpage = 30;
+
+        return get_pagination($sql, $page, $perpage, $total);
+    }
+
     // Get video_movie
     public function get_id_video($id)
     {

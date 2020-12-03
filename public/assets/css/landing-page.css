@@ -187,6 +187,7 @@ img.logo {
 }
 
 #movie-menu .icon {
+  font-size: 28px;
   display: none;
 }
 
@@ -556,7 +557,7 @@ img.logo {
 
   #movie-menu .navbar-brand {
     margin: 0;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: 20px;
   }
 

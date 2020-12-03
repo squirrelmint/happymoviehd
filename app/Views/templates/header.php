@@ -41,7 +41,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="<?= $document_root ?>assets/css/landing-page.css?v=3" rel="stylesheet">
+  <link href="<?= $document_root ?>assets/css/landing-page.css?v=4" rel="stylesheet">
 
   <?php
 
@@ -92,8 +92,10 @@
                     <ul>
                     <?php
                       if(!empty($movie_category)){
+                        $searcharray = array(' ','/');
+                        $replacearray = array('-','|');
                         foreach($movie_category as $moviecate){
-                          $cateurl = urlencode(str_replace(' ','-',$moviecate['category_name']));
+                          $cateurl = urlencode(str_replace($searcharray,$replacearray,$moviecate['category_name']));
                     ?>
                       <li><a href="<?=base_url('/category/'.$moviecate['category_id'].'/'.$cateurl)?>"><?=$moviecate['category_name']?></a></li>
                     <?php 
@@ -123,8 +125,11 @@
                     <ul>
                     <?php
                       if(!empty($av_category)){
+                        $searcharray = array(' ','/');
+                        $replacearray = array('-','|');
+
                         foreach($av_category as $avcate){
-                          $cateurl = urlencode(str_replace(' ','-',$avcate['category_name']));
+                          $cateurl = urlencode(str_replace($searcharray,$replacearray,$avcate['category_name']));
                     ?>
                       <li><a href="<?=base_url('av/category/'.$avcate['category_id'].'/'.$cateurl)?>"><?=$avcate['category_name']?></a></li>
                     <?php 
@@ -161,7 +166,7 @@
               }
               ?>
 
-              <input id="movie-search" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>">
+              <input id="movie-search" class="movie-search ml-auto" placeholder="Search..." value="<?php echo $value ?>" onclick="moveCursorToEnd(this)">
               <div class="input-group-btn">
                 <div class="btn-group" role="group">
                   <button type="submit" class="movie-search-button"><i class="fas fa-search"></i></button>

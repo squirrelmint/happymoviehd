@@ -1,0 +1,14 @@
+CRITICAL - 2020-12-02 05:57:10 --> Too few arguments to function App\Controllers\Movie::popular(), 0 passed in C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php on line 910 and exactly 2 expected
+#0 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->popular()
+#1 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#2 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-02 05:57:25 --> Undefined variable: keyword
+#0 C:\xampp\htdocs\movie\happymoviehd\app\Models\Video_Model.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 233, Array)
+#1 C:\xampp\htdocs\movie\happymoviehd\app\Controllers\Movie.php(367): App\Models\Video_Model->get_popular(1, 1)
+#2 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(910): App\Controllers\Movie->popular()
+#3 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#4 C:\xampp\htdocs\movie\happymoviehd\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\movie\happymoviehd\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -171,6 +171,51 @@ class Video_Model extends Model
         return get_pagination($sql, $page, $perpage, $total);
     }
 
+    public function get_list_video($branchid, $keyword = "", $cate_id = "", $page = 1)
+    {
+        $sql_where = " ";
+        if ($keyword != "") {
+            $sql_where = " AND `$this->table_movie`.movie_thname LIKE '%$keyword%' ";
+        }
+
+        if ($cate_id != "") {
+            $sql = "SELECT
+                    *
+                FROM
+                    $this->table_movie
+                    left join $this->an_moviecate ON $this->an_moviecate.movie_id = $this->table_movie.movie_id
+                WHERE
+                    `$this->table_movie`.branch_id = '$branchid'
+                    AND `$this->table_movie`.movie_type IN ('mo','se') 
+                    AND $this->table_movie.movie_active = '1' 
+                    AND $this->an_moviecate.category_id = '$cate_id' 
+                     
+                ORDER BY `$this->table_movie`.movie_create DESC";
+        } else {
+
+            $sql = "SELECT
+                    *
+                FROM
+                    $this->table_movie
+                WHERE
+                    `$this->table_movie`.branch_id = '$branchid'
+                    AND `$this->table_movie`.movie_type IN ('mo','se') 
+                    AND $this->table_movie.movie_active = '1' " .
+                $sql_where .
+                "ORDER BY `$this->table_movie`.movie_year, `$this->table_movie`.movie_ratescore DESC";
+        }
+
+        $query = $this->db->query($sql);
+        $total = count($query->getResultArray());
+        $perpage = 30;
+
+
+
+        // return $query->getResultArray();
+
+        return get_pagination($sql, $page, $perpage, $total);
+    }
+
     public function get_movie_new_recommend($branchid, $keyword = "", $page = 1)
     {
 
